@@ -306,14 +306,26 @@ We take the two model files generated above, stored at `./trained_models/` and r
 - **The first model trained on `set0`:** The analysis of this model gives an average of 99.81% of predictions being within 1% error.
 
    ![Test Set 0 Scatter](./src/test/set0/scatter.png)
-   ![Test Set 0 Metrics](./src/test/set0/metrics.txt)
-   <!-- ![Test Set 0 Log](./src/test/set0/testing.log) -->
+
+   ```text
+   test_loss: 0.13108545241355896
+   mae: 8.387040843200683
+   rmse: 0.0036350178997963667
+   accuracy: 0.9980833333333333
+   model_config: {'hidden_dim': 256, 'num_layers': 6, 'epochs': 100, 'batch_size': 64, 'learning_rate': '1e-05', 'weight_decay': '1e-05', 'dropout': 0.05}
+   ```
 
 - **The first model trained on `set1`:** The analysis of this model gives an average of 97.25% of predictions being within 1% error.
 
    ![Test Set 1 Scatter](./src/test/set1/scatter.png)
-   ![Test Set 1 Metrics](./src/test/set0/metrics.txt)
-   <!-- ![Test Set 1 Log](./src/test/set0/testing.txt) -->
+   
+   ```text
+   test_loss: 0.13108545241355896
+   mae: 8.387040843200683
+   rmse: 0.0036350178997963667
+   accuracy: 0.9980833333333333
+   model_config: {'hidden_dim': 256, 'num_layers': 6, 'epochs': 100, 'batch_size': 64, 'learning_rate': '1e-05', 'weight_decay': '1e-05', 'dropout': 0.05}
+   ```
 
 ## Comparison with Deterministic Annealing
 
