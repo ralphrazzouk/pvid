@@ -320,10 +320,10 @@ We take the two model files generated above, stored at `./trained_models/` and r
    ![Test Set 1 Scatter](./src/test/set1/scatter.png)
    
    ```text
-   test_loss: 0.13108545241355896
-   mae: 8.387040843200683
-   rmse: 0.0036350178997963667
-   accuracy: 0.9980833333333333
+   test_loss: 0.12783483794530232
+   mae: 8.179061130015056
+   rmse: 0.004267072770744562
+   accuracy: 0.9724833333333334
    model_config: {'hidden_dim': 256, 'num_layers': 6, 'epochs': 100, 'batch_size': 64, 'learning_rate': '1e-05', 'weight_decay': '1e-05', 'dropout': 0.05}
    ```
 
