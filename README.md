@@ -318,7 +318,7 @@ We take the two model files generated above, stored at `./trained_models/` and r
 - **The first model trained on `set1`:** The analysis of this model gives an average of 97.25% of predictions being within 1% error.
 
    ![Test Set 1 Scatter](./src/test/set1/scatter.png)
-   
+
    ```text
    test_loss: 0.12783483794530232
    mae: 8.179061130015056
@@ -339,7 +339,7 @@ We now run `./deterministic_annealing/deterministic_annealer_analysis.py` to che
 
 ![Deterministic Annealer Predictions](./deterministic_annealing/test/set1/plots/annealer_comparison_1.png)
 
-The analysis of the deterministic annealer gives an average of 97.25% of preductions being within 1% error.
+The analysis of the deterministic annealer gives an average of 97.25% of predictions being within 1% error.
 
 ## Future Considerations
 
