@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 600">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 13px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5 {
+        isolation: isolate;
+      }
+
+      .st0, .st2, .st3, .st4 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st1 {
+        font-size: 11px;
+      }
+
+      .st1, .st5 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st6 {
+        fill: #e8daef;
+        stroke: #8e44ad;
+      }
+
+      .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13 {
+        stroke-width: 2px;
+      }
+
+      .st7 {
+        fill: #d5f5e3;
+        stroke: #27ae60;
+      }
+
+      .st8 {
+        fill: #fcf3cf;
+        stroke: #f1c40f;
+      }
+
+      .st14 {
+        fill: none;
+      }
+
+      .st2 {
+        font-size: 14px;
+      }
+
+      .st15 {
+        display: none;
+      }
+
+      .st15, .st9 {
+        fill: #fff;
+      }
+
+      .st9 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .st16 {
+        fill: #f9e79f;
+        stroke: #f39c12;
+      }
+
+      .st10 {
+        fill: #d6dbdf;
+        stroke: #2c3e50;
+      }
+
+      .st3 {
+        font-size: 24px;
+      }
+
+      .st11 {
+        fill: #ededed;
+        stroke: #666;
+      }
+
+      .st12 {
+        fill: #d6eaf8;
+        stroke: #2e86c1;
+      }
+
+      .st13 {
+        fill: #fadbd8;
+        stroke: #e74c3c;
+      }
+
+      .st4 {
+        font-size: 13.6px;
+      }
+
+      .st17 {
+        fill: #f5b7b1;
+        stroke: #c0392b;
+      }
+
+      .st5 {
+        font-size: 10px;
+      }
+    </style>
+  </defs>
+  <rect class="st15" width="1000" height="600"/>
+  <text class="st3" transform="translate(279 65.2)"><tspan x="0" y="0">Track Vertex Finding GNN Architecture</tspan></text>
+  <g>
+    <rect class="st12" x="73.3" y="131.5" width="120" height="80"/>
+    <text class="st4" transform="translate(83.4 153.8) scale(1 1)"><tspan x="0" y="0">Input Features</tspan></text>
+    <text class="st1" transform="translate(92.1 174.4)"><tspan x="0" y="0">Node: [z0, dz0]</tspan></text>
+    <text class="st1" transform="translate(92.7 189.3)"><tspan x="0" y="0">Edge: [d, σ1σ2]</tspan></text>
+  </g>
+  <g>
+    <rect class="st7" x="243.3" y="131.5" width="120" height="80"/>
+    <text class="st0" transform="translate(249.9 153.8)"><tspan x="0" y="0">Node Embedding</tspan></text>
+    <text class="st1" transform="translate(272.5 176.7)"><tspan x="0" y="0">Linear + LN</tspan></text>
+    <text class="st1" transform="translate(261.1 191.2)"><tspan x="0" y="0">GELU + Dropout</tspan></text>
+  </g>
+  <g>
+    <rect class="st13" x="413.3" y="111.5" width="300" height="120"/>
+    <text class="st2" transform="translate(491.6 137.2)"><tspan x="0" y="0">TrackConv Layers (×N)</tspan></text>
+    <rect class="st17" x="433.3" y="151.5" width="80" height="60"/>
+    <text class="st5" transform="translate(452 176.5)"><tspan x="0" y="0">Message</tspan></text>
+    <text class="st5" transform="translate(461.3 191.5)"><tspan x="0" y="0">MLP</tspan></text>
+    <rect class="st17" x="523.3" y="151.5" width="80" height="60"/>
+    <text class="st5" transform="translate(539.3 176.6)"><tspan x="0" y="0">LayerNorm</tspan></text>
+    <text class="st5" transform="translate(548.2 191.6)"><tspan x="0" y="0">GELU</tspan></text>
+    <rect class="st17" x="613.3" y="151.5" width="80" height="60"/>
+    <text class="st5" transform="translate(634.3 176.5)"><tspan x="0" y="0">Residual</tspan></text>
+    <text class="st5" transform="translate(628.5 191.5)"><tspan x="0" y="0">Connection</tspan></text>
+  </g>
+  <g>
+    <rect class="st6" x="763.3" y="131.5" width="120" height="80"/>
+    <text class="st2" transform="translate(773.7 158.6)"><tspan x="0" y="0">Global Pooling</tspan></text>
+    <text class="st1" transform="translate(795.5 178.8)"><tspan x="0" y="0">Mean Pool</tspan></text>
+  </g>
+  <g>
+    <rect class="st8" x="413.3" y="281.5" width="300" height="120"/>
+    <text class="st2" transform="translate(530.4 306.2)"><tspan x="0" y="0">Final MLP</tspan></text>
+    <rect class="st16" x="433.3" y="321.5" width="80" height="60"/>
+    <text class="st5" transform="translate(459 346.2)"><tspan x="0" y="0">Linear</tspan></text>
+    <text class="st5" transform="translate(437.9 361.2)"><tspan x="0" y="0">hidden→hidden</tspan></text>
+    <rect class="st16" x="523.3" y="321.5" width="80" height="60"/>
+    <text class="st5" transform="translate(549.4 345.5)"><tspan x="0" y="0">Linear</tspan></text>
+    <text class="st5" transform="translate(539.1 360.5)"><tspan x="0" y="0">→hidden/2</tspan></text>
+    <rect class="st16" x="613.3" y="321.5" width="80" height="60"/>
+    <text class="st5" transform="translate(639.4 345.5)"><tspan x="0" y="0">Linear</tspan></text>
+    <text class="st5" transform="translate(645.5 360.5)"><tspan x="0" y="0">→1</tspan></text>
+  </g>
+  <g>
+    <rect class="st10" x="763.3" y="301.5" width="120" height="80"/>
+    <text class="st2" transform="translate(802.9 326)"><tspan x="0" y="0">Output</tspan></text>
+    <text class="st1" transform="translate(786 345.9)"><tspan x="0" y="0">Vertex Position</tspan></text>
+    <text class="st1" transform="translate(799.1 361)"><tspan x="0" y="0">Prediction</tspan></text>
+  </g>
+  <g>
+    <rect class="st11" x="413.3" y="451.5" width="300" height="80"/>
+    <text class="st2" transform="translate(513.3 476.3)"><tspan x="0" y="0">Loss Functions</tspan></text>
+    <text class="st1" transform="translate(500.7 498.5)"><tspan x="0" y="0">MAE + 0.01 * Physics Loss</tspan></text>
+  </g>
+  <path class="st14" d=""/>
+  <polygon points="225.3 164.5 245.3 171.5 225.3 178.5 225.3 164.5"/>
+  <path d="M243.3,171.5" marker-end="url(#arrowhead)"/>
+  <path class="st14" d=""/>
+  <polygon points="395.3 164.5 415.3 171.5 395.3 178.5 395.3 164.5"/>
+  <path d="M413.3,171.5" marker-end="url(#arrowhead)"/>
+  <path class="st14" d=""/>
+  <polygon points="745.3 164.5 765.3 171.5 745.3 178.5 745.3 164.5"/>
+  <path d="M763.3,171.5" marker-end="url(#arrowhead)"/>
+  <path class="st14" d=""/>
+  <polygon points="570.3 263.5 563.3 283.5 556.3 263.5 570.3 263.5"/>
+  <path d="M563.3,281.5" marker-end="url(#arrowhead)"/>
+  <path class="st14" d=""/>
+  <polygon points="745.3 334.5 765.3 341.5 745.3 348.5 745.3 334.5"/>
+  <path d="M763.3,341.5" marker-end="url(#arrowhead)"/>
+  <path class="st14" d=""/>
+  <polygon points="731.3 498.5 711.3 491.5 731.3 484.5 731.3 498.5"/>
+  <path d="M713.3,491.5" marker-end="url(#arrowhead)"/>
+  <line class="st9" x1="225.3" y1="171.5" x2="193.3" y2="171.5"/>
+  <line class="st9" x1="395.3" y1="171.5" x2="363.3" y2="171.5"/>
+  <line class="st9" x1="745.3" y1="173" x2="713.3" y2="173"/>
+  <line class="st9" x1="745.3" y1="343" x2="713.3" y2="343"/>
+  <line class="st9" x1="823.3" y1="491.5" x2="731.3" y2="491.5"/>
+  <line class="st9" x1="563.3" y1="231.5" x2="563.3" y2="263.5"/>
+  <line class="st9" x1="823.3" y1="381.5" x2="823.3" y2="492.5"/>
+</svg>

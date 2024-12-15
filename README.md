@@ -4,9 +4,9 @@
 
 Identify the correct primary vertex from reconstructed tracks at the CMS Experiment using simulated data. The goal is to use the tracks from simulated data to predicate the location of the primary vertex at which they originated. This is done by training a Graph Convolutional Neural Network (GCNN) to be rewarded when the predicated vertex position from the tracks is close to the true vertex position.  
 
-<!-- ## Quicklinks
-- Paper:
-- Presentation: -->
+## Quicklinks
+<!-- - Paper: -->
+- **[Presentation](./assets/presentation.pptx)**
 
 ## Data
 
@@ -144,6 +144,12 @@ python .\track_generator_clean.py --nVertices 60 --nTracksMax 10 --numTests 1 --
 
 The model directly predicts vertex $z$-positions with a physics-informed loss with chi-square track-vertex compatibility, where the track uncertainties (`dz0`) used for vertex position weighting.
 <!-- - TBDDDDDDDDDD Clustering step to determine number of vertices -->
+
+### Architecture
+
+![Model Architecture](./assets/architecture.svg)
+
+### Description
 
 The `./src/model.py` file is described as follows:
 
