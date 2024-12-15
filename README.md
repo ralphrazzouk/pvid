@@ -79,11 +79,11 @@ We use `./utils/track_generator_clean.py` to generate two different training set
 
    Here are the details of the data generated
 
-   ![Test Set 0 Dataset Distributions](./datasets/train/set0/plots/dataset_distributions.png)
+   ![Test Set 0 Dataset Distributions](./src/train/set0_hd256_nl6_e100_bs64_lr1e-05_wd1e-05_d0.05/plots/dataset_distributions.png)
 
-   ![Test Set 0 Pull Distribution](./datasets/train/set0/plots/pull_distribution.png)
+   ![Test Set 0 Pull Distribution](./src/train/set0_hd256_nl6_e100_bs64_lr1e-05_wd1e-05_d0.05/plots/pull_distribution.png)
 
-   ![Test Set 0 Z0 Uncertainty 2D](./datasets/train/set0/plots/z0_uncertainty_2d.png)
+   ![Test Set 0 Z0 Uncertainty 2D](./src/train/set0_hd256_nl6_e100_bs64_lr1e-05_wd1e-05_d0.05/plots/z0_uncertainty_2d.png)
 
 - **The second set (`set0`)** has 1,000 different samples with 60 vertices in each event and 10 tracks per vertex which is inspired by the data CMS produces, shown in the figure below. The following CMS diagram shows the mean number of interactions per crossing, which is essential the mean number of primary vertices per crossing.
 
@@ -101,11 +101,11 @@ We use `./utils/track_generator_clean.py` to generate two different training set
 
    Here are the details of the data generated
 
-   ![Test Set 1 Dataset Distributions](./datasets/train/set1/plots/dataset_distributions.png)
+   ![Test Set 1 Dataset Distributions](./src/train/set1_hd256_nl6_e100_bs64_lr1e-05_wd1e-05_d0.05/plots/dataset_distributions.png)
 
-   ![Test Set 1 Pull Distribution](./datasets/train/set1/plots/pull_distribution.png)
+   ![Test Set 1 Pull Distribution](./src/train/set1_hd256_nl6_e100_bs64_lr1e-05_wd1e-05_d0.05/plots/pull_distribution.png)
 
-   ![Test Set 1 Z0 Uncertainty 2D](./datasets/train/set1/plots/z0_uncertainty_2d.png)
+   ![Test Set 1 Z0 Uncertainty 2D](./src/train/set1_hd256_nl6_e100_bs64_lr1e-05_wd1e-05_d0.05/plots/z0_uncertainty_2d.png)
 
 The pull distribution has a nice Gaussian form. For this specific dataset, the mean is and the standard deviation is.
 
