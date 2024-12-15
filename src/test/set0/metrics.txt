@@ -1,0 +1,5 @@
+test_loss: 0.13108545241355896
+mae: 8.387040843200683
+rmse: 0.0036350178997963667
+accuracy: 0.9980833333333333
+model_config: {'hidden_dim': 256, 'num_layers': 6, 'epochs': 100, 'batch_size': 64, 'learning_rate': '1e-05', 'weight_decay': '1e-05', 'dropout': 0.05}

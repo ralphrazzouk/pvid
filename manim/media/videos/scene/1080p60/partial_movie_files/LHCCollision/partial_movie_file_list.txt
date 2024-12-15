@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/Education/University/Graduate/Purdue University/Year 2 Fall/PHYS 570AI - AI and Physics/Final Project/Code/pvid/manim/media/videos/scene/1080p60/partial_movie_files/LHCCollision/999593766_1062541048_223132457.mp4'
+file 'file:D:/Education/University/Graduate/Purdue University/Year 2 Fall/PHYS 570AI - AI and Physics/Final Project/Code/pvid/manim/media/videos/scene/1080p60/partial_movie_files/LHCCollision/2094552561_614710720_27531443.mp4'
+file 'file:D:/Education/University/Graduate/Purdue University/Year 2 Fall/PHYS 570AI - AI and Physics/Final Project/Code/pvid/manim/media/videos/scene/1080p60/partial_movie_files/LHCCollision/2094552561_326591436_315723807.mp4'
+file 'file:D:/Education/University/Graduate/Purdue University/Year 2 Fall/PHYS 570AI - AI and Physics/Final Project/Code/pvid/manim/media/videos/scene/1080p60/partial_movie_files/LHCCollision/2094552561_2506523253_1178317932.mp4'
+file 'file:D:/Education/University/Graduate/Purdue University/Year 2 Fall/PHYS 570AI - AI and Physics/Final Project/Code/pvid/manim/media/videos/scene/1080p60/partial_movie_files/LHCCollision/2094552561_1946816002_2625868330.mp4'
+file 'file:D:/Education/University/Graduate/Purdue University/Year 2 Fall/PHYS 570AI - AI and Physics/Final Project/Code/pvid/manim/media/videos/scene/1080p60/partial_movie_files/LHCCollision/2094552561_784179552_1645904666.mp4'

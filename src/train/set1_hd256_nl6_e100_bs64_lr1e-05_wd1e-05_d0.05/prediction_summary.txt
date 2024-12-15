@@ -1,0 +1,800 @@
+
+Epoch 1
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.006709
+Standard deviation of error: 0.005162
+Maximum absolute error: 0.084697
+
+Epoch 2
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.008147
+Standard deviation of error: 0.004585
+Maximum absolute error: 0.063474
+
+Epoch 3
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.007329
+Standard deviation of error: 0.004388
+Maximum absolute error: 0.059343
+
+Epoch 4
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.006019
+Standard deviation of error: 0.002470
+Maximum absolute error: 0.042078
+
+Epoch 5
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003280
+Standard deviation of error: 0.002632
+Maximum absolute error: 0.035527
+
+Epoch 6
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.008227
+Standard deviation of error: 0.001963
+Maximum absolute error: 0.042305
+
+Epoch 7
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004391
+Standard deviation of error: 0.002768
+Maximum absolute error: 0.020479
+
+Epoch 8
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.002555
+Standard deviation of error: 0.001946
+Maximum absolute error: 0.029611
+
+Epoch 9
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.006970
+Standard deviation of error: 0.003941
+Maximum absolute error: 0.034265
+
+Epoch 10
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.002707
+Standard deviation of error: 0.002041
+Maximum absolute error: 0.023659
+
+Epoch 11
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.005382
+Standard deviation of error: 0.001883
+Maximum absolute error: 0.030397
+
+Epoch 12
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.002180
+Standard deviation of error: 0.001467
+Maximum absolute error: 0.023261
+
+Epoch 13
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.002464
+Standard deviation of error: 0.002271
+Maximum absolute error: 0.017013
+
+Epoch 14
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.002252
+Standard deviation of error: 0.001759
+Maximum absolute error: 0.016232
+
+Epoch 15
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.002428
+Standard deviation of error: 0.001702
+Maximum absolute error: 0.016577
+
+Epoch 16
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.009109
+Standard deviation of error: 0.002453
+Maximum absolute error: 0.016958
+
+Epoch 17
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.005029
+Standard deviation of error: 0.001100
+Maximum absolute error: 0.016781
+
+Epoch 18
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004302
+Standard deviation of error: 0.002347
+Maximum absolute error: 0.015905
+
+Epoch 19
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.007257
+Standard deviation of error: 0.001989
+Maximum absolute error: 0.017553
+
+Epoch 20
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004828
+Standard deviation of error: 0.001856
+Maximum absolute error: 0.020483
+
+Epoch 21
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003544
+Standard deviation of error: 0.001640
+Maximum absolute error: 0.013391
+
+Epoch 22
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003794
+Standard deviation of error: 0.001928
+Maximum absolute error: 0.013552
+
+Epoch 23
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003169
+Standard deviation of error: 0.001213
+Maximum absolute error: 0.013203
+
+Epoch 24
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004819
+Standard deviation of error: 0.001351
+Maximum absolute error: 0.011124
+
+Epoch 25
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004424
+Standard deviation of error: 0.001561
+Maximum absolute error: 0.013184
+
+Epoch 26
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004634
+Standard deviation of error: 0.001177
+Maximum absolute error: 0.011708
+
+Epoch 27
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004950
+Standard deviation of error: 0.001116
+Maximum absolute error: 0.010185
+
+Epoch 28
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004016
+Standard deviation of error: 0.002127
+Maximum absolute error: 0.012420
+
+Epoch 29
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003861
+Standard deviation of error: 0.002038
+Maximum absolute error: 0.014165
+
+Epoch 30
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003501
+Standard deviation of error: 0.001654
+Maximum absolute error: 0.010327
+
+Epoch 31
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.002238
+Standard deviation of error: 0.001527
+Maximum absolute error: 0.011448
+
+Epoch 32
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003654
+Standard deviation of error: 0.001254
+Maximum absolute error: 0.011401
+
+Epoch 33
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003316
+Standard deviation of error: 0.001807
+Maximum absolute error: 0.010708
+
+Epoch 34
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003346
+Standard deviation of error: 0.001166
+Maximum absolute error: 0.012247
+
+Epoch 35
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.005349
+Standard deviation of error: 0.001025
+Maximum absolute error: 0.014060
+
+Epoch 36
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003998
+Standard deviation of error: 0.002077
+Maximum absolute error: 0.011575
+
+Epoch 37
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003786
+Standard deviation of error: 0.001515
+Maximum absolute error: 0.009793
+
+Epoch 38
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003202
+Standard deviation of error: 0.001475
+Maximum absolute error: 0.009593
+
+Epoch 39
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004392
+Standard deviation of error: 0.001205
+Maximum absolute error: 0.010430
+
+Epoch 40
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003626
+Standard deviation of error: 0.001531
+Maximum absolute error: 0.010340
+
+Epoch 41
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003722
+Standard deviation of error: 0.001526
+Maximum absolute error: 0.010795
+
+Epoch 42
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004397
+Standard deviation of error: 0.001612
+Maximum absolute error: 0.011939
+
+Epoch 43
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003611
+Standard deviation of error: 0.001478
+Maximum absolute error: 0.010388
+
+Epoch 44
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004449
+Standard deviation of error: 0.001386
+Maximum absolute error: 0.010797
+
+Epoch 45
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003622
+Standard deviation of error: 0.001264
+Maximum absolute error: 0.010369
+
+Epoch 46
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003907
+Standard deviation of error: 0.001264
+Maximum absolute error: 0.010106
+
+Epoch 47
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003717
+Standard deviation of error: 0.001481
+Maximum absolute error: 0.010241
+
+Epoch 48
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004022
+Standard deviation of error: 0.001261
+Maximum absolute error: 0.010102
+
+Epoch 49
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003892
+Standard deviation of error: 0.001428
+Maximum absolute error: 0.010120
+
+Epoch 50
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003873
+Standard deviation of error: 0.001284
+Maximum absolute error: 0.009659
+
+Epoch 51
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003825
+Standard deviation of error: 0.001320
+Maximum absolute error: 0.009795
+
+Epoch 52
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003834
+Standard deviation of error: 0.001554
+Maximum absolute error: 0.010394
+
+Epoch 53
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003776
+Standard deviation of error: 0.001495
+Maximum absolute error: 0.010154
+
+Epoch 54
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003283
+Standard deviation of error: 0.001600
+Maximum absolute error: 0.010103
+
+Epoch 55
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003796
+Standard deviation of error: 0.001483
+Maximum absolute error: 0.010353
+
+Epoch 56
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003841
+Standard deviation of error: 0.001457
+Maximum absolute error: 0.010246
+
+Epoch 57
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003967
+Standard deviation of error: 0.001547
+Maximum absolute error: 0.010480
+
+Epoch 58
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003929
+Standard deviation of error: 0.001492
+Maximum absolute error: 0.010292
+
+Epoch 59
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003984
+Standard deviation of error: 0.001373
+Maximum absolute error: 0.010018
+
+Epoch 60
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003903
+Standard deviation of error: 0.001342
+Maximum absolute error: 0.009988
+
+Epoch 61
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003650
+Standard deviation of error: 0.001391
+Maximum absolute error: 0.009845
+
+Epoch 62
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003705
+Standard deviation of error: 0.001450
+Maximum absolute error: 0.010059
+
+Epoch 63
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003911
+Standard deviation of error: 0.001487
+Maximum absolute error: 0.010181
+
+Epoch 64
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003865
+Standard deviation of error: 0.001541
+Maximum absolute error: 0.010262
+
+Epoch 65
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003775
+Standard deviation of error: 0.001563
+Maximum absolute error: 0.010272
+
+Epoch 66
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003676
+Standard deviation of error: 0.001488
+Maximum absolute error: 0.010091
+
+Epoch 67
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003688
+Standard deviation of error: 0.001425
+Maximum absolute error: 0.009965
+
+Epoch 68
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003868
+Standard deviation of error: 0.001412
+Maximum absolute error: 0.010121
+
+Epoch 69
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003953
+Standard deviation of error: 0.001381
+Maximum absolute error: 0.010055
+
+Epoch 70
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004050
+Standard deviation of error: 0.001462
+Maximum absolute error: 0.010349
+
+Epoch 71
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003960
+Standard deviation of error: 0.001478
+Maximum absolute error: 0.010286
+
+Epoch 72
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003885
+Standard deviation of error: 0.001539
+Maximum absolute error: 0.010254
+
+Epoch 73
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003700
+Standard deviation of error: 0.001603
+Maximum absolute error: 0.010299
+
+Epoch 74
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003954
+Standard deviation of error: 0.001457
+Maximum absolute error: 0.010322
+
+Epoch 75
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003856
+Standard deviation of error: 0.001512
+Maximum absolute error: 0.010319
+
+Epoch 76
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003717
+Standard deviation of error: 0.001539
+Maximum absolute error: 0.010249
+
+Epoch 77
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003960
+Standard deviation of error: 0.001458
+Maximum absolute error: 0.010311
+
+Epoch 78
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003913
+Standard deviation of error: 0.001377
+Maximum absolute error: 0.010268
+
+Epoch 79
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003849
+Standard deviation of error: 0.001404
+Maximum absolute error: 0.010235
+
+Epoch 80
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004052
+Standard deviation of error: 0.001456
+Maximum absolute error: 0.010353
+
+Epoch 81
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003882
+Standard deviation of error: 0.001443
+Maximum absolute error: 0.010239
+
+Epoch 82
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003959
+Standard deviation of error: 0.001412
+Maximum absolute error: 0.010325
+
+Epoch 83
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003798
+Standard deviation of error: 0.001488
+Maximum absolute error: 0.010223
+
+Epoch 84
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003862
+Standard deviation of error: 0.001469
+Maximum absolute error: 0.010222
+
+Epoch 85
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003879
+Standard deviation of error: 0.001525
+Maximum absolute error: 0.010431
+
+Epoch 86
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004131
+Standard deviation of error: 0.001493
+Maximum absolute error: 0.010560
+
+Epoch 87
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003783
+Standard deviation of error: 0.001503
+Maximum absolute error: 0.010338
+
+Epoch 88
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003883
+Standard deviation of error: 0.001480
+Maximum absolute error: 0.010314
+
+Epoch 89
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003842
+Standard deviation of error: 0.001478
+Maximum absolute error: 0.010231
+
+Epoch 90
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003750
+Standard deviation of error: 0.001546
+Maximum absolute error: 0.010339
+
+Epoch 91
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003733
+Standard deviation of error: 0.001625
+Maximum absolute error: 0.010500
+
+Epoch 92
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004134
+Standard deviation of error: 0.001527
+Maximum absolute error: 0.010585
+
+Epoch 93
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003978
+Standard deviation of error: 0.001414
+Maximum absolute error: 0.010520
+
+Epoch 94
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003860
+Standard deviation of error: 0.001441
+Maximum absolute error: 0.010366
+
+Epoch 95
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004004
+Standard deviation of error: 0.001534
+Maximum absolute error: 0.010510
+
+Epoch 96
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004043
+Standard deviation of error: 0.001501
+Maximum absolute error: 0.010566
+
+Epoch 97
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003770
+Standard deviation of error: 0.001464
+Maximum absolute error: 0.010195
+
+Epoch 98
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003970
+Standard deviation of error: 0.001426
+Maximum absolute error: 0.010306
+
+Epoch 99
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.003870
+Standard deviation of error: 0.001468
+Maximum absolute error: 0.010219
+
+Epoch 100
+Prediction Summary Statistics:
+------------------------------
+Number of vertices: 9000
+Mean absolute error: 0.004019
+Standard deviation of error: 0.001509
+Maximum absolute error: 0.010385

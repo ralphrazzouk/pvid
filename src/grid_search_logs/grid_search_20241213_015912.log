@@ -1,0 +1,1445 @@
+2024-12-13 01:59:12,658 - INFO - ================================================================================
+2024-12-13 01:59:12,658 - INFO - Starting grid search at 2024-12-13 01:59:12.658847
+2024-12-13 01:59:12,658 - INFO - Parameter grid:
+2024-12-13 01:59:12,658 - INFO - hidden_dim: [32, 64, 128, 256, 512]
+2024-12-13 01:59:12,659 - INFO - num_layers: [4, 6, 8, 12]
+2024-12-13 01:59:12,659 - INFO - dropout: [0.05, 0.1, 0.2]
+2024-12-13 01:59:12,659 - INFO - learning_rate: [0.0001, 5e-05, 1e-05, 5e-06]
+2024-12-13 01:59:12,659 - INFO - batch_size: [32, 64, 128]
+2024-12-13 01:59:12,659 - INFO - 
+Fixed parameters:
+2024-12-13 01:59:12,659 - INFO - dataset: trackgen_v1
+2024-12-13 01:59:12,659 - INFO - data_dir: ../datasets/trackgen_v1
+2024-12-13 01:59:12,660 - INFO - epochs: 50
+2024-12-13 01:59:12,660 - INFO - 
+Total number of combinations: 720
+2024-12-13 01:59:12,660 - INFO - ================================================================================
+2024-12-13 01:59:12,660 - INFO - --------------------------------------------------------------------------------
+2024-12-13 01:59:12,660 - INFO - Run 1/720 (0.0% complete)
+2024-12-13 01:59:12,660 - INFO - Current best test loss: inf
+2024-12-13 01:59:12,660 - INFO - 
+Current parameters:
+2024-12-13 01:59:12,661 - INFO - hidden_dim: 32
+2024-12-13 01:59:12,661 - INFO - num_layers: 4
+2024-12-13 01:59:12,661 - INFO - dropout: 0.05
+2024-12-13 01:59:12,661 - INFO - learning_rate: 0.0001
+2024-12-13 01:59:12,661 - INFO - batch_size: 32
+2024-12-13 01:59:12,662 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.05 --learning_rate 0.0001 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 02:08:17,118 - INFO - Run completed successfully in 0:09:04.456109
+2024-12-13 02:08:17,118 - INFO - --------------------------------------------------------------------------------
+2024-12-13 02:08:17,118 - INFO - Run 2/720 (0.1% complete)
+2024-12-13 02:08:17,118 - INFO - Current best test loss: inf
+2024-12-13 02:08:17,118 - INFO - 
+Current parameters:
+2024-12-13 02:08:17,119 - INFO - hidden_dim: 32
+2024-12-13 02:08:17,119 - INFO - num_layers: 4
+2024-12-13 02:08:17,119 - INFO - dropout: 0.05
+2024-12-13 02:08:17,119 - INFO - learning_rate: 0.0001
+2024-12-13 02:08:17,119 - INFO - batch_size: 64
+2024-12-13 02:08:17,119 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.05 --learning_rate 0.0001 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 02:13:53,972 - INFO - Run completed successfully in 0:05:36.852615
+2024-12-13 02:13:53,973 - INFO - --------------------------------------------------------------------------------
+2024-12-13 02:13:53,973 - INFO - Run 3/720 (0.3% complete)
+2024-12-13 02:13:53,973 - INFO - Current best test loss: inf
+2024-12-13 02:13:53,973 - INFO - 
+Current parameters:
+2024-12-13 02:13:53,973 - INFO - hidden_dim: 32
+2024-12-13 02:13:53,974 - INFO - num_layers: 4
+2024-12-13 02:13:53,974 - INFO - dropout: 0.05
+2024-12-13 02:13:53,974 - INFO - learning_rate: 0.0001
+2024-12-13 02:13:53,974 - INFO - batch_size: 128
+2024-12-13 02:13:53,974 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.05 --learning_rate 0.0001 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 02:17:37,844 - INFO - Run completed successfully in 0:03:43.870158
+2024-12-13 02:17:37,844 - INFO - --------------------------------------------------------------------------------
+2024-12-13 02:17:37,845 - INFO - Run 4/720 (0.4% complete)
+2024-12-13 02:17:37,845 - INFO - Current best test loss: inf
+2024-12-13 02:17:37,845 - INFO - 
+Current parameters:
+2024-12-13 02:17:37,845 - INFO - hidden_dim: 32
+2024-12-13 02:17:37,845 - INFO - num_layers: 4
+2024-12-13 02:17:37,845 - INFO - dropout: 0.05
+2024-12-13 02:17:37,845 - INFO - learning_rate: 5e-05
+2024-12-13 02:17:37,846 - INFO - batch_size: 32
+2024-12-13 02:17:37,846 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.05 --learning_rate 5e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 02:25:50,217 - INFO - Run completed successfully in 0:08:12.370502
+2024-12-13 02:25:50,217 - INFO - --------------------------------------------------------------------------------
+2024-12-13 02:25:50,217 - INFO - Run 5/720 (0.6% complete)
+2024-12-13 02:25:50,218 - INFO - Current best test loss: inf
+2024-12-13 02:25:50,218 - INFO - 
+Current parameters:
+2024-12-13 02:25:50,218 - INFO - hidden_dim: 32
+2024-12-13 02:25:50,218 - INFO - num_layers: 4
+2024-12-13 02:25:50,218 - INFO - dropout: 0.05
+2024-12-13 02:25:50,218 - INFO - learning_rate: 5e-05
+2024-12-13 02:25:50,218 - INFO - batch_size: 64
+2024-12-13 02:25:50,219 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.05 --learning_rate 5e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 02:30:49,974 - INFO - Run completed successfully in 0:04:59.755314
+2024-12-13 02:30:49,975 - INFO - --------------------------------------------------------------------------------
+2024-12-13 02:30:49,975 - INFO - Run 6/720 (0.7% complete)
+2024-12-13 02:30:49,975 - INFO - Current best test loss: inf
+2024-12-13 02:30:49,975 - INFO - 
+Current parameters:
+2024-12-13 02:30:49,975 - INFO - hidden_dim: 32
+2024-12-13 02:30:49,976 - INFO - num_layers: 4
+2024-12-13 02:30:49,976 - INFO - dropout: 0.05
+2024-12-13 02:30:49,976 - INFO - learning_rate: 5e-05
+2024-12-13 02:30:49,976 - INFO - batch_size: 128
+2024-12-13 02:30:49,976 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.05 --learning_rate 5e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 02:34:28,682 - INFO - Run completed successfully in 0:03:38.705540
+2024-12-13 02:34:28,683 - INFO - --------------------------------------------------------------------------------
+2024-12-13 02:34:28,683 - INFO - Run 7/720 (0.8% complete)
+2024-12-13 02:34:28,683 - INFO - Current best test loss: inf
+2024-12-13 02:34:28,683 - INFO - 
+Current parameters:
+2024-12-13 02:34:28,683 - INFO - hidden_dim: 32
+2024-12-13 02:34:28,683 - INFO - num_layers: 4
+2024-12-13 02:34:28,684 - INFO - dropout: 0.05
+2024-12-13 02:34:28,684 - INFO - learning_rate: 1e-05
+2024-12-13 02:34:28,684 - INFO - batch_size: 32
+2024-12-13 02:34:28,684 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.05 --learning_rate 1e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 02:42:38,271 - INFO - Run completed successfully in 0:08:09.587870
+2024-12-13 02:42:38,272 - INFO - --------------------------------------------------------------------------------
+2024-12-13 02:42:38,272 - INFO - Run 8/720 (1.0% complete)
+2024-12-13 02:42:38,272 - INFO - Current best test loss: inf
+2024-12-13 02:42:38,272 - INFO - 
+Current parameters:
+2024-12-13 02:42:38,272 - INFO - hidden_dim: 32
+2024-12-13 02:42:38,272 - INFO - num_layers: 4
+2024-12-13 02:42:38,273 - INFO - dropout: 0.05
+2024-12-13 02:42:38,273 - INFO - learning_rate: 1e-05
+2024-12-13 02:42:38,273 - INFO - batch_size: 64
+2024-12-13 02:42:38,273 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.05 --learning_rate 1e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 02:47:39,836 - INFO - Run completed successfully in 0:05:01.562755
+2024-12-13 02:47:39,836 - INFO - --------------------------------------------------------------------------------
+2024-12-13 02:47:39,836 - INFO - Run 9/720 (1.1% complete)
+2024-12-13 02:47:39,836 - INFO - Current best test loss: inf
+2024-12-13 02:47:39,836 - INFO - 
+Current parameters:
+2024-12-13 02:47:39,837 - INFO - hidden_dim: 32
+2024-12-13 02:47:39,837 - INFO - num_layers: 4
+2024-12-13 02:47:39,837 - INFO - dropout: 0.05
+2024-12-13 02:47:39,837 - INFO - learning_rate: 1e-05
+2024-12-13 02:47:39,837 - INFO - batch_size: 128
+2024-12-13 02:47:39,838 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.05 --learning_rate 1e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 02:51:17,846 - INFO - Run completed successfully in 0:03:38.008141
+2024-12-13 02:51:17,846 - INFO - --------------------------------------------------------------------------------
+2024-12-13 02:51:17,846 - INFO - Run 10/720 (1.2% complete)
+2024-12-13 02:51:17,846 - INFO - Current best test loss: inf
+2024-12-13 02:51:17,846 - INFO - 
+Current parameters:
+2024-12-13 02:51:17,847 - INFO - hidden_dim: 32
+2024-12-13 02:51:17,847 - INFO - num_layers: 4
+2024-12-13 02:51:17,847 - INFO - dropout: 0.05
+2024-12-13 02:51:17,847 - INFO - learning_rate: 5e-06
+2024-12-13 02:51:17,847 - INFO - batch_size: 32
+2024-12-13 02:51:17,847 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.05 --learning_rate 5e-06 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 02:59:25,964 - INFO - Run completed successfully in 0:08:08.116504
+2024-12-13 02:59:25,964 - INFO - --------------------------------------------------------------------------------
+2024-12-13 02:59:25,964 - INFO - Run 11/720 (1.4% complete)
+2024-12-13 02:59:25,964 - INFO - Current best test loss: inf
+2024-12-13 02:59:25,964 - INFO - 
+Current parameters:
+2024-12-13 02:59:25,965 - INFO - hidden_dim: 32
+2024-12-13 02:59:25,965 - INFO - num_layers: 4
+2024-12-13 02:59:25,965 - INFO - dropout: 0.05
+2024-12-13 02:59:25,965 - INFO - learning_rate: 5e-06
+2024-12-13 02:59:25,965 - INFO - batch_size: 64
+2024-12-13 02:59:25,965 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.05 --learning_rate 5e-06 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 03:04:25,029 - INFO - Run completed successfully in 0:04:59.063739
+2024-12-13 03:04:25,029 - INFO - --------------------------------------------------------------------------------
+2024-12-13 03:04:25,029 - INFO - Run 12/720 (1.5% complete)
+2024-12-13 03:04:25,029 - INFO - Current best test loss: inf
+2024-12-13 03:04:25,029 - INFO - 
+Current parameters:
+2024-12-13 03:04:25,030 - INFO - hidden_dim: 32
+2024-12-13 03:04:25,030 - INFO - num_layers: 4
+2024-12-13 03:04:25,030 - INFO - dropout: 0.05
+2024-12-13 03:04:25,030 - INFO - learning_rate: 5e-06
+2024-12-13 03:04:25,030 - INFO - batch_size: 128
+2024-12-13 03:04:25,030 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.05 --learning_rate 5e-06 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 03:08:06,556 - INFO - Run completed successfully in 0:03:41.525974
+2024-12-13 03:08:06,556 - INFO - --------------------------------------------------------------------------------
+2024-12-13 03:08:06,556 - INFO - Run 13/720 (1.7% complete)
+2024-12-13 03:08:06,557 - INFO - Current best test loss: inf
+2024-12-13 03:08:06,557 - INFO - 
+Current parameters:
+2024-12-13 03:08:06,557 - INFO - hidden_dim: 32
+2024-12-13 03:08:06,557 - INFO - num_layers: 4
+2024-12-13 03:08:06,557 - INFO - dropout: 0.1
+2024-12-13 03:08:06,557 - INFO - learning_rate: 0.0001
+2024-12-13 03:08:06,557 - INFO - batch_size: 32
+2024-12-13 03:08:06,558 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.1 --learning_rate 0.0001 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 03:16:19,899 - INFO - Run completed successfully in 0:08:13.341729
+2024-12-13 03:16:19,899 - INFO - --------------------------------------------------------------------------------
+2024-12-13 03:16:19,899 - INFO - Run 14/720 (1.8% complete)
+2024-12-13 03:16:19,900 - INFO - Current best test loss: inf
+2024-12-13 03:16:19,900 - INFO - 
+Current parameters:
+2024-12-13 03:16:19,900 - INFO - hidden_dim: 32
+2024-12-13 03:16:19,900 - INFO - num_layers: 4
+2024-12-13 03:16:19,900 - INFO - dropout: 0.1
+2024-12-13 03:16:19,900 - INFO - learning_rate: 0.0001
+2024-12-13 03:16:19,901 - INFO - batch_size: 64
+2024-12-13 03:16:19,901 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.1 --learning_rate 0.0001 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 03:21:24,606 - INFO - Run completed successfully in 0:05:04.704473
+2024-12-13 03:21:24,606 - INFO - --------------------------------------------------------------------------------
+2024-12-13 03:21:24,606 - INFO - Run 15/720 (1.9% complete)
+2024-12-13 03:21:24,606 - INFO - Current best test loss: inf
+2024-12-13 03:21:24,606 - INFO - 
+Current parameters:
+2024-12-13 03:21:24,607 - INFO - hidden_dim: 32
+2024-12-13 03:21:24,607 - INFO - num_layers: 4
+2024-12-13 03:21:24,607 - INFO - dropout: 0.1
+2024-12-13 03:21:24,607 - INFO - learning_rate: 0.0001
+2024-12-13 03:21:24,607 - INFO - batch_size: 128
+2024-12-13 03:21:24,607 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.1 --learning_rate 0.0001 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 03:25:04,130 - INFO - Run completed successfully in 0:03:39.523498
+2024-12-13 03:25:04,130 - INFO - --------------------------------------------------------------------------------
+2024-12-13 03:25:04,130 - INFO - Run 16/720 (2.1% complete)
+2024-12-13 03:25:04,130 - INFO - Current best test loss: inf
+2024-12-13 03:25:04,130 - INFO - 
+Current parameters:
+2024-12-13 03:25:04,131 - INFO - hidden_dim: 32
+2024-12-13 03:25:04,131 - INFO - num_layers: 4
+2024-12-13 03:25:04,131 - INFO - dropout: 0.1
+2024-12-13 03:25:04,131 - INFO - learning_rate: 5e-05
+2024-12-13 03:25:04,131 - INFO - batch_size: 32
+2024-12-13 03:25:04,131 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.1 --learning_rate 5e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 03:33:16,921 - INFO - Run completed successfully in 0:08:12.789766
+2024-12-13 03:33:16,922 - INFO - --------------------------------------------------------------------------------
+2024-12-13 03:33:16,922 - INFO - Run 17/720 (2.2% complete)
+2024-12-13 03:33:16,922 - INFO - Current best test loss: inf
+2024-12-13 03:33:16,922 - INFO - 
+Current parameters:
+2024-12-13 03:33:16,922 - INFO - hidden_dim: 32
+2024-12-13 03:33:16,923 - INFO - num_layers: 4
+2024-12-13 03:33:16,923 - INFO - dropout: 0.1
+2024-12-13 03:33:16,923 - INFO - learning_rate: 5e-05
+2024-12-13 03:33:16,923 - INFO - batch_size: 64
+2024-12-13 03:33:16,923 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.1 --learning_rate 5e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 03:38:20,715 - INFO - Run completed successfully in 0:05:03.791485
+2024-12-13 03:38:20,716 - INFO - --------------------------------------------------------------------------------
+2024-12-13 03:38:20,716 - INFO - Run 18/720 (2.4% complete)
+2024-12-13 03:38:20,716 - INFO - Current best test loss: inf
+2024-12-13 03:38:20,716 - INFO - 
+Current parameters:
+2024-12-13 03:38:20,717 - INFO - hidden_dim: 32
+2024-12-13 03:38:20,717 - INFO - num_layers: 4
+2024-12-13 03:38:20,717 - INFO - dropout: 0.1
+2024-12-13 03:38:20,717 - INFO - learning_rate: 5e-05
+2024-12-13 03:38:20,717 - INFO - batch_size: 128
+2024-12-13 03:38:20,717 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.1 --learning_rate 5e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 03:41:58,320 - INFO - Run completed successfully in 0:03:37.603039
+2024-12-13 03:41:58,321 - INFO - --------------------------------------------------------------------------------
+2024-12-13 03:41:58,321 - INFO - Run 19/720 (2.5% complete)
+2024-12-13 03:41:58,321 - INFO - Current best test loss: inf
+2024-12-13 03:41:58,321 - INFO - 
+Current parameters:
+2024-12-13 03:41:58,321 - INFO - hidden_dim: 32
+2024-12-13 03:41:58,322 - INFO - num_layers: 4
+2024-12-13 03:41:58,322 - INFO - dropout: 0.1
+2024-12-13 03:41:58,322 - INFO - learning_rate: 1e-05
+2024-12-13 03:41:58,322 - INFO - batch_size: 32
+2024-12-13 03:41:58,322 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.1 --learning_rate 1e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 03:50:22,575 - INFO - Run completed successfully in 0:08:24.253563
+2024-12-13 03:50:22,575 - INFO - --------------------------------------------------------------------------------
+2024-12-13 03:50:22,575 - INFO - Run 20/720 (2.6% complete)
+2024-12-13 03:50:22,575 - INFO - Current best test loss: inf
+2024-12-13 03:50:22,576 - INFO - 
+Current parameters:
+2024-12-13 03:50:22,576 - INFO - hidden_dim: 32
+2024-12-13 03:50:22,576 - INFO - num_layers: 4
+2024-12-13 03:50:22,576 - INFO - dropout: 0.1
+2024-12-13 03:50:22,576 - INFO - learning_rate: 1e-05
+2024-12-13 03:50:22,576 - INFO - batch_size: 64
+2024-12-13 03:50:22,577 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.1 --learning_rate 1e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 03:55:29,232 - INFO - Run completed successfully in 0:05:06.655321
+2024-12-13 03:55:29,232 - INFO - --------------------------------------------------------------------------------
+2024-12-13 03:55:29,233 - INFO - Run 21/720 (2.8% complete)
+2024-12-13 03:55:29,233 - INFO - Current best test loss: inf
+2024-12-13 03:55:29,233 - INFO - 
+Current parameters:
+2024-12-13 03:55:29,233 - INFO - hidden_dim: 32
+2024-12-13 03:55:29,233 - INFO - num_layers: 4
+2024-12-13 03:55:29,234 - INFO - dropout: 0.1
+2024-12-13 03:55:29,234 - INFO - learning_rate: 1e-05
+2024-12-13 03:55:29,234 - INFO - batch_size: 128
+2024-12-13 03:55:29,234 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.1 --learning_rate 1e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 03:59:07,196 - INFO - Run completed successfully in 0:03:37.961128
+2024-12-13 03:59:07,197 - INFO - --------------------------------------------------------------------------------
+2024-12-13 03:59:07,197 - INFO - Run 22/720 (2.9% complete)
+2024-12-13 03:59:07,197 - INFO - Current best test loss: inf
+2024-12-13 03:59:07,197 - INFO - 
+Current parameters:
+2024-12-13 03:59:07,197 - INFO - hidden_dim: 32
+2024-12-13 03:59:07,198 - INFO - num_layers: 4
+2024-12-13 03:59:07,198 - INFO - dropout: 0.1
+2024-12-13 03:59:07,198 - INFO - learning_rate: 5e-06
+2024-12-13 03:59:07,198 - INFO - batch_size: 32
+2024-12-13 03:59:07,198 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.1 --learning_rate 5e-06 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 04:07:18,623 - INFO - Run completed successfully in 0:08:11.425391
+2024-12-13 04:07:18,623 - INFO - --------------------------------------------------------------------------------
+2024-12-13 04:07:18,623 - INFO - Run 23/720 (3.1% complete)
+2024-12-13 04:07:18,623 - INFO - Current best test loss: inf
+2024-12-13 04:07:18,623 - INFO - 
+Current parameters:
+2024-12-13 04:07:18,624 - INFO - hidden_dim: 32
+2024-12-13 04:07:18,624 - INFO - num_layers: 4
+2024-12-13 04:07:18,624 - INFO - dropout: 0.1
+2024-12-13 04:07:18,624 - INFO - learning_rate: 5e-06
+2024-12-13 04:07:18,624 - INFO - batch_size: 64
+2024-12-13 04:07:18,624 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.1 --learning_rate 5e-06 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 04:12:19,303 - INFO - Run completed successfully in 0:05:00.678204
+2024-12-13 04:12:19,303 - INFO - --------------------------------------------------------------------------------
+2024-12-13 04:12:19,304 - INFO - Run 24/720 (3.2% complete)
+2024-12-13 04:12:19,304 - INFO - Current best test loss: inf
+2024-12-13 04:12:19,304 - INFO - 
+Current parameters:
+2024-12-13 04:12:19,304 - INFO - hidden_dim: 32
+2024-12-13 04:12:19,304 - INFO - num_layers: 4
+2024-12-13 04:12:19,304 - INFO - dropout: 0.1
+2024-12-13 04:12:19,304 - INFO - learning_rate: 5e-06
+2024-12-13 04:12:19,305 - INFO - batch_size: 128
+2024-12-13 04:12:19,305 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.1 --learning_rate 5e-06 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 04:15:54,837 - INFO - Run completed successfully in 0:03:35.531625
+2024-12-13 04:15:54,837 - INFO - --------------------------------------------------------------------------------
+2024-12-13 04:15:54,837 - INFO - Run 25/720 (3.3% complete)
+2024-12-13 04:15:54,837 - INFO - Current best test loss: inf
+2024-12-13 04:15:54,837 - INFO - 
+Current parameters:
+2024-12-13 04:15:54,838 - INFO - hidden_dim: 32
+2024-12-13 04:15:54,838 - INFO - num_layers: 4
+2024-12-13 04:15:54,838 - INFO - dropout: 0.2
+2024-12-13 04:15:54,838 - INFO - learning_rate: 0.0001
+2024-12-13 04:15:54,838 - INFO - batch_size: 32
+2024-12-13 04:15:54,838 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.2 --learning_rate 0.0001 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 04:24:02,052 - INFO - Run completed successfully in 0:08:07.213286
+2024-12-13 04:24:02,053 - INFO - --------------------------------------------------------------------------------
+2024-12-13 04:24:02,053 - INFO - Run 26/720 (3.5% complete)
+2024-12-13 04:24:02,053 - INFO - Current best test loss: inf
+2024-12-13 04:24:02,053 - INFO - 
+Current parameters:
+2024-12-13 04:24:02,053 - INFO - hidden_dim: 32
+2024-12-13 04:24:02,053 - INFO - num_layers: 4
+2024-12-13 04:24:02,054 - INFO - dropout: 0.2
+2024-12-13 04:24:02,054 - INFO - learning_rate: 0.0001
+2024-12-13 04:24:02,054 - INFO - batch_size: 64
+2024-12-13 04:24:02,054 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.2 --learning_rate 0.0001 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 04:29:06,637 - INFO - Run completed successfully in 0:05:04.582450
+2024-12-13 04:29:06,638 - INFO - --------------------------------------------------------------------------------
+2024-12-13 04:29:06,638 - INFO - Run 27/720 (3.6% complete)
+2024-12-13 04:29:06,638 - INFO - Current best test loss: inf
+2024-12-13 04:29:06,638 - INFO - 
+Current parameters:
+2024-12-13 04:29:06,638 - INFO - hidden_dim: 32
+2024-12-13 04:29:06,639 - INFO - num_layers: 4
+2024-12-13 04:29:06,639 - INFO - dropout: 0.2
+2024-12-13 04:29:06,639 - INFO - learning_rate: 0.0001
+2024-12-13 04:29:06,639 - INFO - batch_size: 128
+2024-12-13 04:29:06,639 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.2 --learning_rate 0.0001 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 04:32:43,795 - INFO - Run completed successfully in 0:03:37.156941
+2024-12-13 04:32:43,795 - INFO - --------------------------------------------------------------------------------
+2024-12-13 04:32:43,796 - INFO - Run 28/720 (3.8% complete)
+2024-12-13 04:32:43,796 - INFO - Current best test loss: inf
+2024-12-13 04:32:43,796 - INFO - 
+Current parameters:
+2024-12-13 04:32:43,796 - INFO - hidden_dim: 32
+2024-12-13 04:32:43,796 - INFO - num_layers: 4
+2024-12-13 04:32:43,796 - INFO - dropout: 0.2
+2024-12-13 04:32:43,796 - INFO - learning_rate: 5e-05
+2024-12-13 04:32:43,797 - INFO - batch_size: 32
+2024-12-13 04:32:43,797 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.2 --learning_rate 5e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 04:40:54,207 - INFO - Run completed successfully in 0:08:10.409569
+2024-12-13 04:40:54,207 - INFO - --------------------------------------------------------------------------------
+2024-12-13 04:40:54,207 - INFO - Run 29/720 (3.9% complete)
+2024-12-13 04:40:54,207 - INFO - Current best test loss: inf
+2024-12-13 04:40:54,207 - INFO - 
+Current parameters:
+2024-12-13 04:40:54,207 - INFO - hidden_dim: 32
+2024-12-13 04:40:54,208 - INFO - num_layers: 4
+2024-12-13 04:40:54,208 - INFO - dropout: 0.2
+2024-12-13 04:40:54,208 - INFO - learning_rate: 5e-05
+2024-12-13 04:40:54,208 - INFO - batch_size: 64
+2024-12-13 04:40:54,208 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.2 --learning_rate 5e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 04:45:58,320 - INFO - Run completed successfully in 0:05:04.111855
+2024-12-13 04:45:58,321 - INFO - --------------------------------------------------------------------------------
+2024-12-13 04:45:58,321 - INFO - Run 30/720 (4.0% complete)
+2024-12-13 04:45:58,321 - INFO - Current best test loss: inf
+2024-12-13 04:45:58,321 - INFO - 
+Current parameters:
+2024-12-13 04:45:58,321 - INFO - hidden_dim: 32
+2024-12-13 04:45:58,321 - INFO - num_layers: 4
+2024-12-13 04:45:58,322 - INFO - dropout: 0.2
+2024-12-13 04:45:58,322 - INFO - learning_rate: 5e-05
+2024-12-13 04:45:58,322 - INFO - batch_size: 128
+2024-12-13 04:45:58,322 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.2 --learning_rate 5e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 04:49:34,236 - INFO - Run completed successfully in 0:03:35.913667
+2024-12-13 04:49:34,236 - INFO - --------------------------------------------------------------------------------
+2024-12-13 04:49:34,236 - INFO - Run 31/720 (4.2% complete)
+2024-12-13 04:49:34,236 - INFO - Current best test loss: inf
+2024-12-13 04:49:34,237 - INFO - 
+Current parameters:
+2024-12-13 04:49:34,237 - INFO - hidden_dim: 32
+2024-12-13 04:49:34,237 - INFO - num_layers: 4
+2024-12-13 04:49:34,237 - INFO - dropout: 0.2
+2024-12-13 04:49:34,238 - INFO - learning_rate: 1e-05
+2024-12-13 04:49:34,238 - INFO - batch_size: 32
+2024-12-13 04:49:34,238 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.2 --learning_rate 1e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 04:57:42,853 - INFO - Run completed successfully in 0:08:08.615621
+2024-12-13 04:57:42,853 - INFO - --------------------------------------------------------------------------------
+2024-12-13 04:57:42,853 - INFO - Run 32/720 (4.3% complete)
+2024-12-13 04:57:42,854 - INFO - Current best test loss: inf
+2024-12-13 04:57:42,854 - INFO - 
+Current parameters:
+2024-12-13 04:57:42,854 - INFO - hidden_dim: 32
+2024-12-13 04:57:42,854 - INFO - num_layers: 4
+2024-12-13 04:57:42,854 - INFO - dropout: 0.2
+2024-12-13 04:57:42,854 - INFO - learning_rate: 1e-05
+2024-12-13 04:57:42,854 - INFO - batch_size: 64
+2024-12-13 04:57:42,855 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.2 --learning_rate 1e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 05:02:46,669 - INFO - Run completed successfully in 0:05:03.814268
+2024-12-13 05:02:46,670 - INFO - --------------------------------------------------------------------------------
+2024-12-13 05:02:46,670 - INFO - Run 33/720 (4.4% complete)
+2024-12-13 05:02:46,670 - INFO - Current best test loss: inf
+2024-12-13 05:02:46,670 - INFO - 
+Current parameters:
+2024-12-13 05:02:46,670 - INFO - hidden_dim: 32
+2024-12-13 05:02:46,670 - INFO - num_layers: 4
+2024-12-13 05:02:46,671 - INFO - dropout: 0.2
+2024-12-13 05:02:46,671 - INFO - learning_rate: 1e-05
+2024-12-13 05:02:46,671 - INFO - batch_size: 128
+2024-12-13 05:02:46,671 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.2 --learning_rate 1e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 05:06:22,250 - INFO - Run completed successfully in 0:03:35.578576
+2024-12-13 05:06:22,250 - INFO - --------------------------------------------------------------------------------
+2024-12-13 05:06:22,251 - INFO - Run 34/720 (4.6% complete)
+2024-12-13 05:06:22,251 - INFO - Current best test loss: inf
+2024-12-13 05:06:22,251 - INFO - 
+Current parameters:
+2024-12-13 05:06:22,251 - INFO - hidden_dim: 32
+2024-12-13 05:06:22,251 - INFO - num_layers: 4
+2024-12-13 05:06:22,251 - INFO - dropout: 0.2
+2024-12-13 05:06:22,251 - INFO - learning_rate: 5e-06
+2024-12-13 05:06:22,252 - INFO - batch_size: 32
+2024-12-13 05:06:22,252 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.2 --learning_rate 5e-06 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 05:14:27,893 - INFO - Run completed successfully in 0:08:05.640924
+2024-12-13 05:14:27,893 - INFO - --------------------------------------------------------------------------------
+2024-12-13 05:14:27,893 - INFO - Run 35/720 (4.7% complete)
+2024-12-13 05:14:27,894 - INFO - Current best test loss: inf
+2024-12-13 05:14:27,894 - INFO - 
+Current parameters:
+2024-12-13 05:14:27,894 - INFO - hidden_dim: 32
+2024-12-13 05:14:27,894 - INFO - num_layers: 4
+2024-12-13 05:14:27,894 - INFO - dropout: 0.2
+2024-12-13 05:14:27,894 - INFO - learning_rate: 5e-06
+2024-12-13 05:14:27,894 - INFO - batch_size: 64
+2024-12-13 05:14:27,895 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.2 --learning_rate 5e-06 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 05:19:31,875 - INFO - Run completed successfully in 0:05:03.979821
+2024-12-13 05:19:31,875 - INFO - --------------------------------------------------------------------------------
+2024-12-13 05:19:31,875 - INFO - Run 36/720 (4.9% complete)
+2024-12-13 05:19:31,875 - INFO - Current best test loss: inf
+2024-12-13 05:19:31,875 - INFO - 
+Current parameters:
+2024-12-13 05:19:31,876 - INFO - hidden_dim: 32
+2024-12-13 05:19:31,876 - INFO - num_layers: 4
+2024-12-13 05:19:31,876 - INFO - dropout: 0.2
+2024-12-13 05:19:31,876 - INFO - learning_rate: 5e-06
+2024-12-13 05:19:31,876 - INFO - batch_size: 128
+2024-12-13 05:19:31,876 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --dropout 0.2 --learning_rate 5e-06 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 05:23:09,811 - INFO - Run completed successfully in 0:03:37.935493
+2024-12-13 05:23:09,812 - INFO - --------------------------------------------------------------------------------
+2024-12-13 05:23:09,812 - INFO - Run 37/720 (5.0% complete)
+2024-12-13 05:23:09,812 - INFO - Current best test loss: inf
+2024-12-13 05:23:09,812 - INFO - 
+Current parameters:
+2024-12-13 05:23:09,812 - INFO - hidden_dim: 32
+2024-12-13 05:23:09,812 - INFO - num_layers: 6
+2024-12-13 05:23:09,812 - INFO - dropout: 0.05
+2024-12-13 05:23:09,813 - INFO - learning_rate: 0.0001
+2024-12-13 05:23:09,813 - INFO - batch_size: 32
+2024-12-13 05:23:09,813 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.05 --learning_rate 0.0001 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 05:33:51,902 - INFO - Run completed successfully in 0:10:42.088624
+2024-12-13 05:33:51,902 - INFO - --------------------------------------------------------------------------------
+2024-12-13 05:33:51,902 - INFO - Run 38/720 (5.1% complete)
+2024-12-13 05:33:51,902 - INFO - Current best test loss: inf
+2024-12-13 05:33:51,902 - INFO - 
+Current parameters:
+2024-12-13 05:33:51,903 - INFO - hidden_dim: 32
+2024-12-13 05:33:51,903 - INFO - num_layers: 6
+2024-12-13 05:33:51,903 - INFO - dropout: 0.05
+2024-12-13 05:33:51,903 - INFO - learning_rate: 0.0001
+2024-12-13 05:33:51,903 - INFO - batch_size: 64
+2024-12-13 05:33:51,903 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.05 --learning_rate 0.0001 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 05:39:39,192 - INFO - Run completed successfully in 0:05:47.288048
+2024-12-13 05:39:39,193 - INFO - --------------------------------------------------------------------------------
+2024-12-13 05:39:39,193 - INFO - Run 39/720 (5.3% complete)
+2024-12-13 05:39:39,193 - INFO - Current best test loss: inf
+2024-12-13 05:39:39,193 - INFO - 
+Current parameters:
+2024-12-13 05:39:39,193 - INFO - hidden_dim: 32
+2024-12-13 05:39:39,194 - INFO - num_layers: 6
+2024-12-13 05:39:39,194 - INFO - dropout: 0.05
+2024-12-13 05:39:39,194 - INFO - learning_rate: 0.0001
+2024-12-13 05:39:39,194 - INFO - batch_size: 128
+2024-12-13 05:39:39,194 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.05 --learning_rate 0.0001 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 05:43:40,550 - INFO - Run completed successfully in 0:04:01.355618
+2024-12-13 05:43:40,550 - INFO - --------------------------------------------------------------------------------
+2024-12-13 05:43:40,550 - INFO - Run 40/720 (5.4% complete)
+2024-12-13 05:43:40,551 - INFO - Current best test loss: inf
+2024-12-13 05:43:40,551 - INFO - 
+Current parameters:
+2024-12-13 05:43:40,551 - INFO - hidden_dim: 32
+2024-12-13 05:43:40,551 - INFO - num_layers: 6
+2024-12-13 05:43:40,551 - INFO - dropout: 0.05
+2024-12-13 05:43:40,551 - INFO - learning_rate: 5e-05
+2024-12-13 05:43:40,551 - INFO - batch_size: 32
+2024-12-13 05:43:40,552 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.05 --learning_rate 5e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 05:53:20,846 - INFO - Run completed successfully in 0:09:40.294065
+2024-12-13 05:53:20,846 - INFO - --------------------------------------------------------------------------------
+2024-12-13 05:53:20,847 - INFO - Run 41/720 (5.6% complete)
+2024-12-13 05:53:20,847 - INFO - Current best test loss: inf
+2024-12-13 05:53:20,847 - INFO - 
+Current parameters:
+2024-12-13 05:53:20,847 - INFO - hidden_dim: 32
+2024-12-13 05:53:20,847 - INFO - num_layers: 6
+2024-12-13 05:53:20,847 - INFO - dropout: 0.05
+2024-12-13 05:53:20,847 - INFO - learning_rate: 5e-05
+2024-12-13 05:53:20,848 - INFO - batch_size: 64
+2024-12-13 05:53:20,848 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.05 --learning_rate 5e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 05:59:08,272 - INFO - Run completed successfully in 0:05:47.424496
+2024-12-13 05:59:08,272 - INFO - --------------------------------------------------------------------------------
+2024-12-13 05:59:08,272 - INFO - Run 42/720 (5.7% complete)
+2024-12-13 05:59:08,272 - INFO - Current best test loss: inf
+2024-12-13 05:59:08,272 - INFO - 
+Current parameters:
+2024-12-13 05:59:08,273 - INFO - hidden_dim: 32
+2024-12-13 05:59:08,273 - INFO - num_layers: 6
+2024-12-13 05:59:08,273 - INFO - dropout: 0.05
+2024-12-13 05:59:08,273 - INFO - learning_rate: 5e-05
+2024-12-13 05:59:08,273 - INFO - batch_size: 128
+2024-12-13 05:59:08,273 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.05 --learning_rate 5e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 06:03:08,646 - INFO - Run completed successfully in 0:04:00.371930
+2024-12-13 06:03:08,647 - INFO - --------------------------------------------------------------------------------
+2024-12-13 06:03:08,647 - INFO - Run 43/720 (5.8% complete)
+2024-12-13 06:03:08,647 - INFO - Current best test loss: inf
+2024-12-13 06:03:08,647 - INFO - 
+Current parameters:
+2024-12-13 06:03:08,647 - INFO - hidden_dim: 32
+2024-12-13 06:03:08,647 - INFO - num_layers: 6
+2024-12-13 06:03:08,648 - INFO - dropout: 0.05
+2024-12-13 06:03:08,648 - INFO - learning_rate: 1e-05
+2024-12-13 06:03:08,648 - INFO - batch_size: 32
+2024-12-13 06:03:08,648 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.05 --learning_rate 1e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 06:12:48,090 - INFO - Run completed successfully in 0:09:39.441589
+2024-12-13 06:12:48,090 - INFO - --------------------------------------------------------------------------------
+2024-12-13 06:12:48,090 - INFO - Run 44/720 (6.0% complete)
+2024-12-13 06:12:48,090 - INFO - Current best test loss: inf
+2024-12-13 06:12:48,091 - INFO - 
+Current parameters:
+2024-12-13 06:12:48,091 - INFO - hidden_dim: 32
+2024-12-13 06:12:48,091 - INFO - num_layers: 6
+2024-12-13 06:12:48,091 - INFO - dropout: 0.05
+2024-12-13 06:12:48,091 - INFO - learning_rate: 1e-05
+2024-12-13 06:12:48,092 - INFO - batch_size: 64
+2024-12-13 06:12:48,092 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.05 --learning_rate 1e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 06:18:33,672 - INFO - Run completed successfully in 0:05:45.580068
+2024-12-13 06:18:33,673 - INFO - --------------------------------------------------------------------------------
+2024-12-13 06:18:33,673 - INFO - Run 45/720 (6.1% complete)
+2024-12-13 06:18:33,673 - INFO - Current best test loss: inf
+2024-12-13 06:18:33,673 - INFO - 
+Current parameters:
+2024-12-13 06:18:33,673 - INFO - hidden_dim: 32
+2024-12-13 06:18:33,673 - INFO - num_layers: 6
+2024-12-13 06:18:33,674 - INFO - dropout: 0.05
+2024-12-13 06:18:33,674 - INFO - learning_rate: 1e-05
+2024-12-13 06:18:33,674 - INFO - batch_size: 128
+2024-12-13 06:18:33,674 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.05 --learning_rate 1e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 06:22:31,867 - INFO - Run completed successfully in 0:03:58.192877
+2024-12-13 06:22:31,867 - INFO - --------------------------------------------------------------------------------
+2024-12-13 06:22:31,867 - INFO - Run 46/720 (6.2% complete)
+2024-12-13 06:22:31,867 - INFO - Current best test loss: inf
+2024-12-13 06:22:31,868 - INFO - 
+Current parameters:
+2024-12-13 06:22:31,868 - INFO - hidden_dim: 32
+2024-12-13 06:22:31,868 - INFO - num_layers: 6
+2024-12-13 06:22:31,868 - INFO - dropout: 0.05
+2024-12-13 06:22:31,868 - INFO - learning_rate: 5e-06
+2024-12-13 06:22:31,868 - INFO - batch_size: 32
+2024-12-13 06:22:31,868 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.05 --learning_rate 5e-06 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 06:32:12,986 - INFO - Run completed successfully in 0:09:41.117150
+2024-12-13 06:32:12,987 - INFO - --------------------------------------------------------------------------------
+2024-12-13 06:32:12,987 - INFO - Run 47/720 (6.4% complete)
+2024-12-13 06:32:12,987 - INFO - Current best test loss: inf
+2024-12-13 06:32:12,987 - INFO - 
+Current parameters:
+2024-12-13 06:32:12,987 - INFO - hidden_dim: 32
+2024-12-13 06:32:12,987 - INFO - num_layers: 6
+2024-12-13 06:32:12,988 - INFO - dropout: 0.05
+2024-12-13 06:32:12,988 - INFO - learning_rate: 5e-06
+2024-12-13 06:32:12,988 - INFO - batch_size: 64
+2024-12-13 06:32:12,988 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.05 --learning_rate 5e-06 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 06:38:02,037 - INFO - Run completed successfully in 0:05:49.049542
+2024-12-13 06:38:02,038 - INFO - --------------------------------------------------------------------------------
+2024-12-13 06:38:02,038 - INFO - Run 48/720 (6.5% complete)
+2024-12-13 06:38:02,038 - INFO - Current best test loss: inf
+2024-12-13 06:38:02,038 - INFO - 
+Current parameters:
+2024-12-13 06:38:02,038 - INFO - hidden_dim: 32
+2024-12-13 06:38:02,038 - INFO - num_layers: 6
+2024-12-13 06:38:02,039 - INFO - dropout: 0.05
+2024-12-13 06:38:02,039 - INFO - learning_rate: 5e-06
+2024-12-13 06:38:02,039 - INFO - batch_size: 128
+2024-12-13 06:38:02,039 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.05 --learning_rate 5e-06 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 06:41:58,260 - INFO - Run completed successfully in 0:03:56.221140
+2024-12-13 06:41:58,260 - INFO - --------------------------------------------------------------------------------
+2024-12-13 06:41:58,260 - INFO - Run 49/720 (6.7% complete)
+2024-12-13 06:41:58,260 - INFO - Current best test loss: inf
+2024-12-13 06:41:58,260 - INFO - 
+Current parameters:
+2024-12-13 06:41:58,261 - INFO - hidden_dim: 32
+2024-12-13 06:41:58,261 - INFO - num_layers: 6
+2024-12-13 06:41:58,261 - INFO - dropout: 0.1
+2024-12-13 06:41:58,261 - INFO - learning_rate: 0.0001
+2024-12-13 06:41:58,261 - INFO - batch_size: 32
+2024-12-13 06:41:58,261 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.1 --learning_rate 0.0001 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 06:51:36,895 - INFO - Run completed successfully in 0:09:38.632275
+2024-12-13 06:51:36,896 - INFO - --------------------------------------------------------------------------------
+2024-12-13 06:51:36,896 - INFO - Run 50/720 (6.8% complete)
+2024-12-13 06:51:36,896 - INFO - Current best test loss: inf
+2024-12-13 06:51:36,896 - INFO - 
+Current parameters:
+2024-12-13 06:51:36,896 - INFO - hidden_dim: 32
+2024-12-13 06:51:36,896 - INFO - num_layers: 6
+2024-12-13 06:51:36,896 - INFO - dropout: 0.1
+2024-12-13 06:51:36,897 - INFO - learning_rate: 0.0001
+2024-12-13 06:51:36,897 - INFO - batch_size: 64
+2024-12-13 06:51:36,897 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.1 --learning_rate 0.0001 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 06:57:21,612 - INFO - Run completed successfully in 0:05:44.715629
+2024-12-13 06:57:21,612 - INFO - --------------------------------------------------------------------------------
+2024-12-13 06:57:21,612 - INFO - Run 51/720 (6.9% complete)
+2024-12-13 06:57:21,612 - INFO - Current best test loss: inf
+2024-12-13 06:57:21,612 - INFO - 
+Current parameters:
+2024-12-13 06:57:21,613 - INFO - hidden_dim: 32
+2024-12-13 06:57:21,613 - INFO - num_layers: 6
+2024-12-13 06:57:21,613 - INFO - dropout: 0.1
+2024-12-13 06:57:21,613 - INFO - learning_rate: 0.0001
+2024-12-13 06:57:21,613 - INFO - batch_size: 128
+2024-12-13 06:57:21,613 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.1 --learning_rate 0.0001 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 07:01:18,115 - INFO - Run completed successfully in 0:03:56.501502
+2024-12-13 07:01:18,116 - INFO - --------------------------------------------------------------------------------
+2024-12-13 07:01:18,116 - INFO - Run 52/720 (7.1% complete)
+2024-12-13 07:01:18,116 - INFO - Current best test loss: inf
+2024-12-13 07:01:18,116 - INFO - 
+Current parameters:
+2024-12-13 07:01:18,116 - INFO - hidden_dim: 32
+2024-12-13 07:01:18,117 - INFO - num_layers: 6
+2024-12-13 07:01:18,117 - INFO - dropout: 0.1
+2024-12-13 07:01:18,117 - INFO - learning_rate: 5e-05
+2024-12-13 07:01:18,117 - INFO - batch_size: 32
+2024-12-13 07:01:18,117 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.1 --learning_rate 5e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 07:10:52,804 - INFO - Run completed successfully in 0:09:34.686718
+2024-12-13 07:10:52,805 - INFO - --------------------------------------------------------------------------------
+2024-12-13 07:10:52,805 - INFO - Run 53/720 (7.2% complete)
+2024-12-13 07:10:52,805 - INFO - Current best test loss: inf
+2024-12-13 07:10:52,805 - INFO - 
+Current parameters:
+2024-12-13 07:10:52,805 - INFO - hidden_dim: 32
+2024-12-13 07:10:52,805 - INFO - num_layers: 6
+2024-12-13 07:10:52,805 - INFO - dropout: 0.1
+2024-12-13 07:10:52,806 - INFO - learning_rate: 5e-05
+2024-12-13 07:10:52,806 - INFO - batch_size: 64
+2024-12-13 07:10:52,806 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.1 --learning_rate 5e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 07:16:36,865 - INFO - Run completed successfully in 0:05:44.059710
+2024-12-13 07:16:36,865 - INFO - --------------------------------------------------------------------------------
+2024-12-13 07:16:36,865 - INFO - Run 54/720 (7.4% complete)
+2024-12-13 07:16:36,865 - INFO - Current best test loss: inf
+2024-12-13 07:16:36,865 - INFO - 
+Current parameters:
+2024-12-13 07:16:36,866 - INFO - hidden_dim: 32
+2024-12-13 07:16:36,866 - INFO - num_layers: 6
+2024-12-13 07:16:36,866 - INFO - dropout: 0.1
+2024-12-13 07:16:36,866 - INFO - learning_rate: 5e-05
+2024-12-13 07:16:36,866 - INFO - batch_size: 128
+2024-12-13 07:16:36,866 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.1 --learning_rate 5e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 07:20:35,781 - INFO - Run completed successfully in 0:03:58.915047
+2024-12-13 07:20:35,781 - INFO - --------------------------------------------------------------------------------
+2024-12-13 07:20:35,782 - INFO - Run 55/720 (7.5% complete)
+2024-12-13 07:20:35,782 - INFO - Current best test loss: inf
+2024-12-13 07:20:35,782 - INFO - 
+Current parameters:
+2024-12-13 07:20:35,782 - INFO - hidden_dim: 32
+2024-12-13 07:20:35,782 - INFO - num_layers: 6
+2024-12-13 07:20:35,782 - INFO - dropout: 0.1
+2024-12-13 07:20:35,782 - INFO - learning_rate: 1e-05
+2024-12-13 07:20:35,782 - INFO - batch_size: 32
+2024-12-13 07:20:35,783 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.1 --learning_rate 1e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 07:30:06,607 - INFO - Run completed successfully in 0:09:30.823385
+2024-12-13 07:30:06,607 - INFO - --------------------------------------------------------------------------------
+2024-12-13 07:30:06,607 - INFO - Run 56/720 (7.6% complete)
+2024-12-13 07:30:06,607 - INFO - Current best test loss: inf
+2024-12-13 07:30:06,608 - INFO - 
+Current parameters:
+2024-12-13 07:30:06,608 - INFO - hidden_dim: 32
+2024-12-13 07:30:06,608 - INFO - num_layers: 6
+2024-12-13 07:30:06,608 - INFO - dropout: 0.1
+2024-12-13 07:30:06,608 - INFO - learning_rate: 1e-05
+2024-12-13 07:30:06,608 - INFO - batch_size: 64
+2024-12-13 07:30:06,608 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.1 --learning_rate 1e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 07:35:53,739 - INFO - Run completed successfully in 0:05:47.130037
+2024-12-13 07:35:53,739 - INFO - --------------------------------------------------------------------------------
+2024-12-13 07:35:53,740 - INFO - Run 57/720 (7.8% complete)
+2024-12-13 07:35:53,740 - INFO - Current best test loss: inf
+2024-12-13 07:35:53,740 - INFO - 
+Current parameters:
+2024-12-13 07:35:53,740 - INFO - hidden_dim: 32
+2024-12-13 07:35:53,740 - INFO - num_layers: 6
+2024-12-13 07:35:53,740 - INFO - dropout: 0.1
+2024-12-13 07:35:53,741 - INFO - learning_rate: 1e-05
+2024-12-13 07:35:53,741 - INFO - batch_size: 128
+2024-12-13 07:35:53,741 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.1 --learning_rate 1e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 07:39:53,896 - INFO - Run completed successfully in 0:04:00.155335
+2024-12-13 07:39:53,897 - INFO - --------------------------------------------------------------------------------
+2024-12-13 07:39:53,897 - INFO - Run 58/720 (7.9% complete)
+2024-12-13 07:39:53,897 - INFO - Current best test loss: inf
+2024-12-13 07:39:53,897 - INFO - 
+Current parameters:
+2024-12-13 07:39:53,897 - INFO - hidden_dim: 32
+2024-12-13 07:39:53,897 - INFO - num_layers: 6
+2024-12-13 07:39:53,898 - INFO - dropout: 0.1
+2024-12-13 07:39:53,898 - INFO - learning_rate: 5e-06
+2024-12-13 07:39:53,898 - INFO - batch_size: 32
+2024-12-13 07:39:53,898 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.1 --learning_rate 5e-06 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 07:49:32,353 - INFO - Run completed successfully in 0:09:38.454798
+2024-12-13 07:49:32,354 - INFO - --------------------------------------------------------------------------------
+2024-12-13 07:49:32,354 - INFO - Run 59/720 (8.1% complete)
+2024-12-13 07:49:32,354 - INFO - Current best test loss: inf
+2024-12-13 07:49:32,354 - INFO - 
+Current parameters:
+2024-12-13 07:49:32,354 - INFO - hidden_dim: 32
+2024-12-13 07:49:32,355 - INFO - num_layers: 6
+2024-12-13 07:49:32,355 - INFO - dropout: 0.1
+2024-12-13 07:49:32,355 - INFO - learning_rate: 5e-06
+2024-12-13 07:49:32,355 - INFO - batch_size: 64
+2024-12-13 07:49:32,355 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.1 --learning_rate 5e-06 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 07:55:19,228 - INFO - Run completed successfully in 0:05:46.873371
+2024-12-13 07:55:19,228 - INFO - --------------------------------------------------------------------------------
+2024-12-13 07:55:19,229 - INFO - Run 60/720 (8.2% complete)
+2024-12-13 07:55:19,229 - INFO - Current best test loss: inf
+2024-12-13 07:55:19,229 - INFO - 
+Current parameters:
+2024-12-13 07:55:19,229 - INFO - hidden_dim: 32
+2024-12-13 07:55:19,229 - INFO - num_layers: 6
+2024-12-13 07:55:19,229 - INFO - dropout: 0.1
+2024-12-13 07:55:19,229 - INFO - learning_rate: 5e-06
+2024-12-13 07:55:19,230 - INFO - batch_size: 128
+2024-12-13 07:55:19,230 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.1 --learning_rate 5e-06 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 07:59:16,132 - INFO - Run completed successfully in 0:03:56.901590
+2024-12-13 07:59:16,133 - INFO - --------------------------------------------------------------------------------
+2024-12-13 07:59:16,133 - INFO - Run 61/720 (8.3% complete)
+2024-12-13 07:59:16,133 - INFO - Current best test loss: inf
+2024-12-13 07:59:16,133 - INFO - 
+Current parameters:
+2024-12-13 07:59:16,133 - INFO - hidden_dim: 32
+2024-12-13 07:59:16,133 - INFO - num_layers: 6
+2024-12-13 07:59:16,133 - INFO - dropout: 0.2
+2024-12-13 07:59:16,134 - INFO - learning_rate: 0.0001
+2024-12-13 07:59:16,134 - INFO - batch_size: 32
+2024-12-13 07:59:16,134 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.2 --learning_rate 0.0001 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 08:08:55,247 - INFO - Run completed successfully in 0:09:39.112722
+2024-12-13 08:08:55,247 - INFO - --------------------------------------------------------------------------------
+2024-12-13 08:08:55,248 - INFO - Run 62/720 (8.5% complete)
+2024-12-13 08:08:55,248 - INFO - Current best test loss: inf
+2024-12-13 08:08:55,248 - INFO - 
+Current parameters:
+2024-12-13 08:08:55,248 - INFO - hidden_dim: 32
+2024-12-13 08:08:55,248 - INFO - num_layers: 6
+2024-12-13 08:08:55,248 - INFO - dropout: 0.2
+2024-12-13 08:08:55,248 - INFO - learning_rate: 0.0001
+2024-12-13 08:08:55,249 - INFO - batch_size: 64
+2024-12-13 08:08:55,249 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.2 --learning_rate 0.0001 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 08:14:37,535 - INFO - Run completed successfully in 0:05:42.286380
+2024-12-13 08:14:37,535 - INFO - --------------------------------------------------------------------------------
+2024-12-13 08:14:37,535 - INFO - Run 63/720 (8.6% complete)
+2024-12-13 08:14:37,535 - INFO - Current best test loss: inf
+2024-12-13 08:14:37,535 - INFO - 
+Current parameters:
+2024-12-13 08:14:37,536 - INFO - hidden_dim: 32
+2024-12-13 08:14:37,536 - INFO - num_layers: 6
+2024-12-13 08:14:37,536 - INFO - dropout: 0.2
+2024-12-13 08:14:37,536 - INFO - learning_rate: 0.0001
+2024-12-13 08:14:37,536 - INFO - batch_size: 128
+2024-12-13 08:14:37,536 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.2 --learning_rate 0.0001 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 08:18:37,718 - INFO - Run completed successfully in 0:04:00.181360
+2024-12-13 08:18:37,718 - INFO - --------------------------------------------------------------------------------
+2024-12-13 08:18:37,718 - INFO - Run 64/720 (8.8% complete)
+2024-12-13 08:18:37,718 - INFO - Current best test loss: inf
+2024-12-13 08:18:37,718 - INFO - 
+Current parameters:
+2024-12-13 08:18:37,719 - INFO - hidden_dim: 32
+2024-12-13 08:18:37,719 - INFO - num_layers: 6
+2024-12-13 08:18:37,719 - INFO - dropout: 0.2
+2024-12-13 08:18:37,719 - INFO - learning_rate: 5e-05
+2024-12-13 08:18:37,719 - INFO - batch_size: 32
+2024-12-13 08:18:37,719 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.2 --learning_rate 5e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 08:28:17,668 - INFO - Run completed successfully in 0:09:39.949046
+2024-12-13 08:28:17,669 - INFO - --------------------------------------------------------------------------------
+2024-12-13 08:28:17,669 - INFO - Run 65/720 (8.9% complete)
+2024-12-13 08:28:17,669 - INFO - Current best test loss: inf
+2024-12-13 08:28:17,669 - INFO - 
+Current parameters:
+2024-12-13 08:28:17,669 - INFO - hidden_dim: 32
+2024-12-13 08:28:17,669 - INFO - num_layers: 6
+2024-12-13 08:28:17,669 - INFO - dropout: 0.2
+2024-12-13 08:28:17,670 - INFO - learning_rate: 5e-05
+2024-12-13 08:28:17,670 - INFO - batch_size: 64
+2024-12-13 08:28:17,670 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.2 --learning_rate 5e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 08:34:01,522 - INFO - Run completed successfully in 0:05:43.851658
+2024-12-13 08:34:01,522 - INFO - --------------------------------------------------------------------------------
+2024-12-13 08:34:01,522 - INFO - Run 66/720 (9.0% complete)
+2024-12-13 08:34:01,522 - INFO - Current best test loss: inf
+2024-12-13 08:34:01,522 - INFO - 
+Current parameters:
+2024-12-13 08:34:01,523 - INFO - hidden_dim: 32
+2024-12-13 08:34:01,523 - INFO - num_layers: 6
+2024-12-13 08:34:01,523 - INFO - dropout: 0.2
+2024-12-13 08:34:01,523 - INFO - learning_rate: 5e-05
+2024-12-13 08:34:01,523 - INFO - batch_size: 128
+2024-12-13 08:34:01,523 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.2 --learning_rate 5e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 08:37:57,912 - INFO - Run completed successfully in 0:03:56.389454
+2024-12-13 08:37:57,913 - INFO - --------------------------------------------------------------------------------
+2024-12-13 08:37:57,913 - INFO - Run 67/720 (9.2% complete)
+2024-12-13 08:37:57,913 - INFO - Current best test loss: inf
+2024-12-13 08:37:57,913 - INFO - 
+Current parameters:
+2024-12-13 08:37:57,913 - INFO - hidden_dim: 32
+2024-12-13 08:37:57,913 - INFO - num_layers: 6
+2024-12-13 08:37:57,914 - INFO - dropout: 0.2
+2024-12-13 08:37:57,914 - INFO - learning_rate: 1e-05
+2024-12-13 08:37:57,914 - INFO - batch_size: 32
+2024-12-13 08:37:57,914 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.2 --learning_rate 1e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 08:47:30,948 - INFO - Run completed successfully in 0:09:33.033425
+2024-12-13 08:47:30,949 - INFO - --------------------------------------------------------------------------------
+2024-12-13 08:47:30,949 - INFO - Run 68/720 (9.3% complete)
+2024-12-13 08:47:30,949 - INFO - Current best test loss: inf
+2024-12-13 08:47:30,950 - INFO - 
+Current parameters:
+2024-12-13 08:47:30,950 - INFO - hidden_dim: 32
+2024-12-13 08:47:30,950 - INFO - num_layers: 6
+2024-12-13 08:47:30,950 - INFO - dropout: 0.2
+2024-12-13 08:47:30,950 - INFO - learning_rate: 1e-05
+2024-12-13 08:47:30,950 - INFO - batch_size: 64
+2024-12-13 08:47:30,951 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.2 --learning_rate 1e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 08:53:14,050 - INFO - Run completed successfully in 0:05:43.098643
+2024-12-13 08:53:14,050 - INFO - --------------------------------------------------------------------------------
+2024-12-13 08:53:14,050 - INFO - Run 69/720 (9.4% complete)
+2024-12-13 08:53:14,050 - INFO - Current best test loss: inf
+2024-12-13 08:53:14,050 - INFO - 
+Current parameters:
+2024-12-13 08:53:14,051 - INFO - hidden_dim: 32
+2024-12-13 08:53:14,051 - INFO - num_layers: 6
+2024-12-13 08:53:14,051 - INFO - dropout: 0.2
+2024-12-13 08:53:14,051 - INFO - learning_rate: 1e-05
+2024-12-13 08:53:14,051 - INFO - batch_size: 128
+2024-12-13 08:53:14,051 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.2 --learning_rate 1e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 08:57:15,625 - INFO - Run completed successfully in 0:04:01.574980
+2024-12-13 08:57:15,625 - INFO - --------------------------------------------------------------------------------
+2024-12-13 08:57:15,626 - INFO - Run 70/720 (9.6% complete)
+2024-12-13 08:57:15,626 - INFO - Current best test loss: inf
+2024-12-13 08:57:15,626 - INFO - 
+Current parameters:
+2024-12-13 08:57:15,626 - INFO - hidden_dim: 32
+2024-12-13 08:57:15,626 - INFO - num_layers: 6
+2024-12-13 08:57:15,626 - INFO - dropout: 0.2
+2024-12-13 08:57:15,626 - INFO - learning_rate: 5e-06
+2024-12-13 08:57:15,627 - INFO - batch_size: 32
+2024-12-13 08:57:15,627 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.2 --learning_rate 5e-06 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 09:06:47,186 - INFO - Run completed successfully in 0:09:31.558329
+2024-12-13 09:06:47,186 - INFO - --------------------------------------------------------------------------------
+2024-12-13 09:06:47,187 - INFO - Run 71/720 (9.7% complete)
+2024-12-13 09:06:47,187 - INFO - Current best test loss: inf
+2024-12-13 09:06:47,187 - INFO - 
+Current parameters:
+2024-12-13 09:06:47,187 - INFO - hidden_dim: 32
+2024-12-13 09:06:47,187 - INFO - num_layers: 6
+2024-12-13 09:06:47,187 - INFO - dropout: 0.2
+2024-12-13 09:06:47,187 - INFO - learning_rate: 5e-06
+2024-12-13 09:06:47,187 - INFO - batch_size: 64
+2024-12-13 09:06:47,188 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.2 --learning_rate 5e-06 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 09:12:34,651 - INFO - Run completed successfully in 0:05:47.463010
+2024-12-13 09:12:34,652 - INFO - --------------------------------------------------------------------------------
+2024-12-13 09:12:34,652 - INFO - Run 72/720 (9.9% complete)
+2024-12-13 09:12:34,652 - INFO - Current best test loss: inf
+2024-12-13 09:12:34,652 - INFO - 
+Current parameters:
+2024-12-13 09:12:34,652 - INFO - hidden_dim: 32
+2024-12-13 09:12:34,652 - INFO - num_layers: 6
+2024-12-13 09:12:34,652 - INFO - dropout: 0.2
+2024-12-13 09:12:34,653 - INFO - learning_rate: 5e-06
+2024-12-13 09:12:34,653 - INFO - batch_size: 128
+2024-12-13 09:12:34,653 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 6 --dropout 0.2 --learning_rate 5e-06 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 09:16:31,812 - INFO - Run completed successfully in 0:03:57.159634
+2024-12-13 09:16:31,812 - INFO - --------------------------------------------------------------------------------
+2024-12-13 09:16:31,813 - INFO - Run 73/720 (10.0% complete)
+2024-12-13 09:16:31,813 - INFO - Current best test loss: inf
+2024-12-13 09:16:31,813 - INFO - 
+Current parameters:
+2024-12-13 09:16:31,813 - INFO - hidden_dim: 32
+2024-12-13 09:16:31,813 - INFO - num_layers: 8
+2024-12-13 09:16:31,813 - INFO - dropout: 0.05
+2024-12-13 09:16:31,813 - INFO - learning_rate: 0.0001
+2024-12-13 09:16:31,813 - INFO - batch_size: 32
+2024-12-13 09:16:31,814 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.05 --learning_rate 0.0001 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 09:27:40,590 - INFO - Run completed successfully in 0:11:08.775414
+2024-12-13 09:27:40,590 - INFO - --------------------------------------------------------------------------------
+2024-12-13 09:27:40,590 - INFO - Run 74/720 (10.1% complete)
+2024-12-13 09:27:40,591 - INFO - Current best test loss: inf
+2024-12-13 09:27:40,591 - INFO - 
+Current parameters:
+2024-12-13 09:27:40,591 - INFO - hidden_dim: 32
+2024-12-13 09:27:40,591 - INFO - num_layers: 8
+2024-12-13 09:27:40,591 - INFO - dropout: 0.05
+2024-12-13 09:27:40,591 - INFO - learning_rate: 0.0001
+2024-12-13 09:27:40,591 - INFO - batch_size: 64
+2024-12-13 09:27:40,592 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.05 --learning_rate 0.0001 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 09:34:07,608 - INFO - Run completed successfully in 0:06:27.015924
+2024-12-13 09:34:07,608 - INFO - --------------------------------------------------------------------------------
+2024-12-13 09:34:07,608 - INFO - Run 75/720 (10.3% complete)
+2024-12-13 09:34:07,608 - INFO - Current best test loss: inf
+2024-12-13 09:34:07,608 - INFO - 
+Current parameters:
+2024-12-13 09:34:07,608 - INFO - hidden_dim: 32
+2024-12-13 09:34:07,609 - INFO - num_layers: 8
+2024-12-13 09:34:07,609 - INFO - dropout: 0.05
+2024-12-13 09:34:07,609 - INFO - learning_rate: 0.0001
+2024-12-13 09:34:07,609 - INFO - batch_size: 128
+2024-12-13 09:34:07,609 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.05 --learning_rate 0.0001 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 09:38:28,880 - INFO - Run completed successfully in 0:04:21.271406
+2024-12-13 09:38:28,880 - INFO - --------------------------------------------------------------------------------
+2024-12-13 09:38:28,880 - INFO - Run 76/720 (10.4% complete)
+2024-12-13 09:38:28,881 - INFO - Current best test loss: inf
+2024-12-13 09:38:28,881 - INFO - 
+Current parameters:
+2024-12-13 09:38:28,881 - INFO - hidden_dim: 32
+2024-12-13 09:38:28,881 - INFO - num_layers: 8
+2024-12-13 09:38:28,881 - INFO - dropout: 0.05
+2024-12-13 09:38:28,881 - INFO - learning_rate: 5e-05
+2024-12-13 09:38:28,881 - INFO - batch_size: 32
+2024-12-13 09:38:28,882 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.05 --learning_rate 5e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 09:49:33,050 - INFO - Run completed successfully in 0:11:04.167802
+2024-12-13 09:49:33,050 - INFO - --------------------------------------------------------------------------------
+2024-12-13 09:49:33,050 - INFO - Run 77/720 (10.6% complete)
+2024-12-13 09:49:33,050 - INFO - Current best test loss: inf
+2024-12-13 09:49:33,050 - INFO - 
+Current parameters:
+2024-12-13 09:49:33,051 - INFO - hidden_dim: 32
+2024-12-13 09:49:33,051 - INFO - num_layers: 8
+2024-12-13 09:49:33,051 - INFO - dropout: 0.05
+2024-12-13 09:49:33,051 - INFO - learning_rate: 5e-05
+2024-12-13 09:49:33,051 - INFO - batch_size: 64
+2024-12-13 09:49:33,052 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.05 --learning_rate 5e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 09:55:59,089 - INFO - Run completed successfully in 0:06:26.037310
+2024-12-13 09:55:59,089 - INFO - --------------------------------------------------------------------------------
+2024-12-13 09:55:59,089 - INFO - Run 78/720 (10.7% complete)
+2024-12-13 09:55:59,089 - INFO - Current best test loss: inf
+2024-12-13 09:55:59,090 - INFO - 
+Current parameters:
+2024-12-13 09:55:59,090 - INFO - hidden_dim: 32
+2024-12-13 09:55:59,090 - INFO - num_layers: 8
+2024-12-13 09:55:59,090 - INFO - dropout: 0.05
+2024-12-13 09:55:59,090 - INFO - learning_rate: 5e-05
+2024-12-13 09:55:59,090 - INFO - batch_size: 128
+2024-12-13 09:55:59,091 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.05 --learning_rate 5e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 10:00:15,462 - INFO - Run completed successfully in 0:04:16.370961
+2024-12-13 10:00:15,462 - INFO - --------------------------------------------------------------------------------
+2024-12-13 10:00:15,462 - INFO - Run 79/720 (10.8% complete)
+2024-12-13 10:00:15,462 - INFO - Current best test loss: inf
+2024-12-13 10:00:15,463 - INFO - 
+Current parameters:
+2024-12-13 10:00:15,463 - INFO - hidden_dim: 32
+2024-12-13 10:00:15,463 - INFO - num_layers: 8
+2024-12-13 10:00:15,463 - INFO - dropout: 0.05
+2024-12-13 10:00:15,463 - INFO - learning_rate: 1e-05
+2024-12-13 10:00:15,463 - INFO - batch_size: 32
+2024-12-13 10:00:15,463 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.05 --learning_rate 1e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 10:11:21,960 - INFO - Run completed successfully in 0:11:06.495882
+2024-12-13 10:11:21,961 - INFO - --------------------------------------------------------------------------------
+2024-12-13 10:11:21,961 - INFO - Run 80/720 (11.0% complete)
+2024-12-13 10:11:21,961 - INFO - Current best test loss: inf
+2024-12-13 10:11:21,961 - INFO - 
+Current parameters:
+2024-12-13 10:11:21,961 - INFO - hidden_dim: 32
+2024-12-13 10:11:21,962 - INFO - num_layers: 8
+2024-12-13 10:11:21,962 - INFO - dropout: 0.05
+2024-12-13 10:11:21,962 - INFO - learning_rate: 1e-05
+2024-12-13 10:11:21,962 - INFO - batch_size: 64
+2024-12-13 10:11:21,962 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.05 --learning_rate 1e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 10:17:46,852 - INFO - Run completed successfully in 0:06:24.890288
+2024-12-13 10:17:46,852 - INFO - --------------------------------------------------------------------------------
+2024-12-13 10:17:46,853 - INFO - Run 81/720 (11.1% complete)
+2024-12-13 10:17:46,853 - INFO - Current best test loss: inf
+2024-12-13 10:17:46,853 - INFO - 
+Current parameters:
+2024-12-13 10:17:46,853 - INFO - hidden_dim: 32
+2024-12-13 10:17:46,853 - INFO - num_layers: 8
+2024-12-13 10:17:46,854 - INFO - dropout: 0.05
+2024-12-13 10:17:46,854 - INFO - learning_rate: 1e-05
+2024-12-13 10:17:46,854 - INFO - batch_size: 128
+2024-12-13 10:17:46,854 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.05 --learning_rate 1e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 10:22:02,463 - INFO - Run completed successfully in 0:04:15.608512
+2024-12-13 10:22:02,464 - INFO - --------------------------------------------------------------------------------
+2024-12-13 10:22:02,464 - INFO - Run 82/720 (11.2% complete)
+2024-12-13 10:22:02,464 - INFO - Current best test loss: inf
+2024-12-13 10:22:02,464 - INFO - 
+Current parameters:
+2024-12-13 10:22:02,464 - INFO - hidden_dim: 32
+2024-12-13 10:22:02,465 - INFO - num_layers: 8
+2024-12-13 10:22:02,465 - INFO - dropout: 0.05
+2024-12-13 10:22:02,465 - INFO - learning_rate: 5e-06
+2024-12-13 10:22:02,465 - INFO - batch_size: 32
+2024-12-13 10:22:02,465 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.05 --learning_rate 5e-06 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 10:33:06,468 - INFO - Run completed successfully in 0:11:04.002608
+2024-12-13 10:33:06,469 - INFO - --------------------------------------------------------------------------------
+2024-12-13 10:33:06,469 - INFO - Run 83/720 (11.4% complete)
+2024-12-13 10:33:06,469 - INFO - Current best test loss: inf
+2024-12-13 10:33:06,469 - INFO - 
+Current parameters:
+2024-12-13 10:33:06,469 - INFO - hidden_dim: 32
+2024-12-13 10:33:06,469 - INFO - num_layers: 8
+2024-12-13 10:33:06,470 - INFO - dropout: 0.05
+2024-12-13 10:33:06,470 - INFO - learning_rate: 5e-06
+2024-12-13 10:33:06,470 - INFO - batch_size: 64
+2024-12-13 10:33:06,470 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.05 --learning_rate 5e-06 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 10:39:32,769 - INFO - Run completed successfully in 0:06:26.299632
+2024-12-13 10:39:32,769 - INFO - --------------------------------------------------------------------------------
+2024-12-13 10:39:32,770 - INFO - Run 84/720 (11.5% complete)
+2024-12-13 10:39:32,770 - INFO - Current best test loss: inf
+2024-12-13 10:39:32,770 - INFO - 
+Current parameters:
+2024-12-13 10:39:32,770 - INFO - hidden_dim: 32
+2024-12-13 10:39:32,770 - INFO - num_layers: 8
+2024-12-13 10:39:32,771 - INFO - dropout: 0.05
+2024-12-13 10:39:32,771 - INFO - learning_rate: 5e-06
+2024-12-13 10:39:32,771 - INFO - batch_size: 128
+2024-12-13 10:39:32,771 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.05 --learning_rate 5e-06 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 10:43:48,537 - INFO - Run completed successfully in 0:04:15.765752
+2024-12-13 10:43:48,537 - INFO - --------------------------------------------------------------------------------
+2024-12-13 10:43:48,537 - INFO - Run 85/720 (11.7% complete)
+2024-12-13 10:43:48,538 - INFO - Current best test loss: inf
+2024-12-13 10:43:48,538 - INFO - 
+Current parameters:
+2024-12-13 10:43:48,538 - INFO - hidden_dim: 32
+2024-12-13 10:43:48,538 - INFO - num_layers: 8
+2024-12-13 10:43:48,538 - INFO - dropout: 0.1
+2024-12-13 10:43:48,538 - INFO - learning_rate: 0.0001
+2024-12-13 10:43:48,539 - INFO - batch_size: 32
+2024-12-13 10:43:48,539 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.1 --learning_rate 0.0001 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 10:54:51,994 - INFO - Run completed successfully in 0:11:03.455208
+2024-12-13 10:54:51,995 - INFO - --------------------------------------------------------------------------------
+2024-12-13 10:54:51,995 - INFO - Run 86/720 (11.8% complete)
+2024-12-13 10:54:51,995 - INFO - Current best test loss: inf
+2024-12-13 10:54:51,995 - INFO - 
+Current parameters:
+2024-12-13 10:54:51,995 - INFO - hidden_dim: 32
+2024-12-13 10:54:51,995 - INFO - num_layers: 8
+2024-12-13 10:54:51,995 - INFO - dropout: 0.1
+2024-12-13 10:54:51,996 - INFO - learning_rate: 0.0001
+2024-12-13 10:54:51,996 - INFO - batch_size: 64
+2024-12-13 10:54:51,996 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.1 --learning_rate 0.0001 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 11:01:16,339 - INFO - Run completed successfully in 0:06:24.343162
+2024-12-13 11:01:16,339 - INFO - --------------------------------------------------------------------------------
+2024-12-13 11:01:16,340 - INFO - Run 87/720 (11.9% complete)
+2024-12-13 11:01:16,340 - INFO - Current best test loss: inf
+2024-12-13 11:01:16,340 - INFO - 
+Current parameters:
+2024-12-13 11:01:16,340 - INFO - hidden_dim: 32
+2024-12-13 11:01:16,340 - INFO - num_layers: 8
+2024-12-13 11:01:16,341 - INFO - dropout: 0.1
+2024-12-13 11:01:16,341 - INFO - learning_rate: 0.0001
+2024-12-13 11:01:16,341 - INFO - batch_size: 128
+2024-12-13 11:01:16,341 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.1 --learning_rate 0.0001 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 11:05:33,167 - INFO - Run completed successfully in 0:04:16.825625
+2024-12-13 11:05:33,167 - INFO - --------------------------------------------------------------------------------
+2024-12-13 11:05:33,167 - INFO - Run 88/720 (12.1% complete)
+2024-12-13 11:05:33,167 - INFO - Current best test loss: inf
+2024-12-13 11:05:33,167 - INFO - 
+Current parameters:
+2024-12-13 11:05:33,168 - INFO - hidden_dim: 32
+2024-12-13 11:05:33,168 - INFO - num_layers: 8
+2024-12-13 11:05:33,168 - INFO - dropout: 0.1
+2024-12-13 11:05:33,168 - INFO - learning_rate: 5e-05
+2024-12-13 11:05:33,168 - INFO - batch_size: 32
+2024-12-13 11:05:33,168 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.1 --learning_rate 5e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 11:17:11,089 - INFO - Run completed successfully in 0:11:37.920419
+2024-12-13 11:17:11,090 - INFO - --------------------------------------------------------------------------------
+2024-12-13 11:17:11,090 - INFO - Run 89/720 (12.2% complete)
+2024-12-13 11:17:11,090 - INFO - Current best test loss: inf
+2024-12-13 11:17:11,090 - INFO - 
+Current parameters:
+2024-12-13 11:17:11,091 - INFO - hidden_dim: 32
+2024-12-13 11:17:11,091 - INFO - num_layers: 8
+2024-12-13 11:17:11,091 - INFO - dropout: 0.1
+2024-12-13 11:17:11,091 - INFO - learning_rate: 5e-05
+2024-12-13 11:17:11,091 - INFO - batch_size: 64
+2024-12-13 11:17:11,091 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.1 --learning_rate 5e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 11:23:42,913 - INFO - Run completed successfully in 0:06:31.820656
+2024-12-13 11:23:42,913 - INFO - --------------------------------------------------------------------------------
+2024-12-13 11:23:42,914 - INFO - Run 90/720 (12.4% complete)
+2024-12-13 11:23:42,914 - INFO - Current best test loss: inf
+2024-12-13 11:23:42,914 - INFO - 
+Current parameters:
+2024-12-13 11:23:42,914 - INFO - hidden_dim: 32
+2024-12-13 11:23:42,915 - INFO - num_layers: 8
+2024-12-13 11:23:42,915 - INFO - dropout: 0.1
+2024-12-13 11:23:42,915 - INFO - learning_rate: 5e-05
+2024-12-13 11:23:42,915 - INFO - batch_size: 128
+2024-12-13 11:23:42,915 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.1 --learning_rate 5e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 11:29:07,890 - INFO - Run completed successfully in 0:05:24.974110
+2024-12-13 11:29:07,891 - INFO - --------------------------------------------------------------------------------
+2024-12-13 11:29:07,891 - INFO - Run 91/720 (12.5% complete)
+2024-12-13 11:29:07,891 - INFO - Current best test loss: inf
+2024-12-13 11:29:07,891 - INFO - 
+Current parameters:
+2024-12-13 11:29:07,892 - INFO - hidden_dim: 32
+2024-12-13 11:29:07,892 - INFO - num_layers: 8
+2024-12-13 11:29:07,892 - INFO - dropout: 0.1
+2024-12-13 11:29:07,892 - INFO - learning_rate: 1e-05
+2024-12-13 11:29:07,892 - INFO - batch_size: 32
+2024-12-13 11:29:07,893 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.1 --learning_rate 1e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 11:40:08,604 - INFO - Run completed successfully in 0:11:00.710631
+2024-12-13 11:40:08,605 - INFO - --------------------------------------------------------------------------------
+2024-12-13 11:40:08,605 - INFO - Run 92/720 (12.6% complete)
+2024-12-13 11:40:08,605 - INFO - Current best test loss: inf
+2024-12-13 11:40:08,605 - INFO - 
+Current parameters:
+2024-12-13 11:40:08,606 - INFO - hidden_dim: 32
+2024-12-13 11:40:08,606 - INFO - num_layers: 8
+2024-12-13 11:40:08,606 - INFO - dropout: 0.1
+2024-12-13 11:40:08,606 - INFO - learning_rate: 1e-05
+2024-12-13 11:40:08,606 - INFO - batch_size: 64
+2024-12-13 11:40:08,607 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.1 --learning_rate 1e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 11:46:41,878 - INFO - Run completed successfully in 0:06:33.271256
+2024-12-13 11:46:41,878 - INFO - --------------------------------------------------------------------------------
+2024-12-13 11:46:41,879 - INFO - Run 93/720 (12.8% complete)
+2024-12-13 11:46:41,879 - INFO - Current best test loss: inf
+2024-12-13 11:46:41,879 - INFO - 
+Current parameters:
+2024-12-13 11:46:41,879 - INFO - hidden_dim: 32
+2024-12-13 11:46:41,879 - INFO - num_layers: 8
+2024-12-13 11:46:41,880 - INFO - dropout: 0.1
+2024-12-13 11:46:41,880 - INFO - learning_rate: 1e-05
+2024-12-13 11:46:41,880 - INFO - batch_size: 128
+2024-12-13 11:46:41,880 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.1 --learning_rate 1e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 11:51:03,548 - INFO - Run completed successfully in 0:04:21.667498
+2024-12-13 11:51:03,548 - INFO - --------------------------------------------------------------------------------
+2024-12-13 11:51:03,548 - INFO - Run 94/720 (12.9% complete)
+2024-12-13 11:51:03,549 - INFO - Current best test loss: inf
+2024-12-13 11:51:03,549 - INFO - 
+Current parameters:
+2024-12-13 11:51:03,549 - INFO - hidden_dim: 32
+2024-12-13 11:51:03,549 - INFO - num_layers: 8
+2024-12-13 11:51:03,549 - INFO - dropout: 0.1
+2024-12-13 11:51:03,549 - INFO - learning_rate: 5e-06
+2024-12-13 11:51:03,550 - INFO - batch_size: 32
+2024-12-13 11:51:03,550 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.1 --learning_rate 5e-06 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 12:03:14,881 - INFO - Run completed successfully in 0:12:11.331013
+2024-12-13 12:03:14,881 - INFO - --------------------------------------------------------------------------------
+2024-12-13 12:03:14,882 - INFO - Run 95/720 (13.1% complete)
+2024-12-13 12:03:14,882 - INFO - Current best test loss: inf
+2024-12-13 12:03:14,882 - INFO - 
+Current parameters:
+2024-12-13 12:03:14,882 - INFO - hidden_dim: 32
+2024-12-13 12:03:14,882 - INFO - num_layers: 8
+2024-12-13 12:03:14,882 - INFO - dropout: 0.1
+2024-12-13 12:03:14,882 - INFO - learning_rate: 5e-06
+2024-12-13 12:03:14,883 - INFO - batch_size: 64
+2024-12-13 12:03:14,883 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.1 --learning_rate 5e-06 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 12:10:18,307 - INFO - Run completed successfully in 0:07:03.424641
+2024-12-13 12:10:18,308 - INFO - --------------------------------------------------------------------------------
+2024-12-13 12:10:18,308 - INFO - Run 96/720 (13.2% complete)
+2024-12-13 12:10:18,308 - INFO - Current best test loss: inf
+2024-12-13 12:10:18,308 - INFO - 
+Current parameters:
+2024-12-13 12:10:18,308 - INFO - hidden_dim: 32
+2024-12-13 12:10:18,308 - INFO - num_layers: 8
+2024-12-13 12:10:18,308 - INFO - dropout: 0.1
+2024-12-13 12:10:18,309 - INFO - learning_rate: 5e-06
+2024-12-13 12:10:18,309 - INFO - batch_size: 128
+2024-12-13 12:10:18,309 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.1 --learning_rate 5e-06 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 12:15:39,156 - INFO - Run completed successfully in 0:05:20.847264
+2024-12-13 12:15:39,156 - INFO - --------------------------------------------------------------------------------
+2024-12-13 12:15:39,157 - INFO - Run 97/720 (13.3% complete)
+2024-12-13 12:15:39,157 - INFO - Current best test loss: inf
+2024-12-13 12:15:39,157 - INFO - 
+Current parameters:
+2024-12-13 12:15:39,157 - INFO - hidden_dim: 32
+2024-12-13 12:15:39,157 - INFO - num_layers: 8
+2024-12-13 12:15:39,157 - INFO - dropout: 0.2
+2024-12-13 12:15:39,157 - INFO - learning_rate: 0.0001
+2024-12-13 12:15:39,157 - INFO - batch_size: 32
+2024-12-13 12:15:39,158 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.2 --learning_rate 0.0001 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 12:26:31,239 - INFO - Run completed successfully in 0:10:52.080378
+2024-12-13 12:26:31,240 - INFO - --------------------------------------------------------------------------------
+2024-12-13 12:26:31,240 - INFO - Run 98/720 (13.5% complete)
+2024-12-13 12:26:31,240 - INFO - Current best test loss: inf
+2024-12-13 12:26:31,240 - INFO - 
+Current parameters:
+2024-12-13 12:26:31,240 - INFO - hidden_dim: 32
+2024-12-13 12:26:31,240 - INFO - num_layers: 8
+2024-12-13 12:26:31,240 - INFO - dropout: 0.2
+2024-12-13 12:26:31,241 - INFO - learning_rate: 0.0001
+2024-12-13 12:26:31,241 - INFO - batch_size: 64
+2024-12-13 12:26:31,241 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.2 --learning_rate 0.0001 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 12:32:50,680 - INFO - Run completed successfully in 0:06:19.439532
+2024-12-13 12:32:50,680 - INFO - --------------------------------------------------------------------------------
+2024-12-13 12:32:50,680 - INFO - Run 99/720 (13.6% complete)
+2024-12-13 12:32:50,680 - INFO - Current best test loss: inf
+2024-12-13 12:32:50,680 - INFO - 
+Current parameters:
+2024-12-13 12:32:50,681 - INFO - hidden_dim: 32
+2024-12-13 12:32:50,681 - INFO - num_layers: 8
+2024-12-13 12:32:50,681 - INFO - dropout: 0.2
+2024-12-13 12:32:50,681 - INFO - learning_rate: 0.0001
+2024-12-13 12:32:50,681 - INFO - batch_size: 128
+2024-12-13 12:32:50,681 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.2 --learning_rate 0.0001 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 12:37:03,674 - INFO - Run completed successfully in 0:04:12.992345
+2024-12-13 12:37:03,675 - INFO - --------------------------------------------------------------------------------
+2024-12-13 12:37:03,675 - INFO - Run 100/720 (13.8% complete)
+2024-12-13 12:37:03,675 - INFO - Current best test loss: inf
+2024-12-13 12:37:03,675 - INFO - 
+Current parameters:
+2024-12-13 12:37:03,675 - INFO - hidden_dim: 32
+2024-12-13 12:37:03,676 - INFO - num_layers: 8
+2024-12-13 12:37:03,676 - INFO - dropout: 0.2
+2024-12-13 12:37:03,676 - INFO - learning_rate: 5e-05
+2024-12-13 12:37:03,676 - INFO - batch_size: 32
+2024-12-13 12:37:03,676 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.2 --learning_rate 5e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 12:47:59,135 - INFO - Run completed successfully in 0:10:55.459125
+2024-12-13 12:47:59,136 - INFO - --------------------------------------------------------------------------------
+2024-12-13 12:47:59,136 - INFO - Run 101/720 (13.9% complete)
+2024-12-13 12:47:59,136 - INFO - Current best test loss: inf
+2024-12-13 12:47:59,136 - INFO - 
+Current parameters:
+2024-12-13 12:47:59,136 - INFO - hidden_dim: 32
+2024-12-13 12:47:59,136 - INFO - num_layers: 8
+2024-12-13 12:47:59,137 - INFO - dropout: 0.2
+2024-12-13 12:47:59,137 - INFO - learning_rate: 5e-05
+2024-12-13 12:47:59,137 - INFO - batch_size: 64
+2024-12-13 12:47:59,137 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.2 --learning_rate 5e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 12:54:18,498 - INFO - Run completed successfully in 0:06:19.360996
+2024-12-13 12:54:18,498 - INFO - --------------------------------------------------------------------------------
+2024-12-13 12:54:18,498 - INFO - Run 102/720 (14.0% complete)
+2024-12-13 12:54:18,498 - INFO - Current best test loss: inf
+2024-12-13 12:54:18,498 - INFO - 
+Current parameters:
+2024-12-13 12:54:18,498 - INFO - hidden_dim: 32
+2024-12-13 12:54:18,499 - INFO - num_layers: 8
+2024-12-13 12:54:18,499 - INFO - dropout: 0.2
+2024-12-13 12:54:18,499 - INFO - learning_rate: 5e-05
+2024-12-13 12:54:18,499 - INFO - batch_size: 128
+2024-12-13 12:54:18,499 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.2 --learning_rate 5e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 12:58:47,284 - INFO - Run completed successfully in 0:04:28.785504
+2024-12-13 12:58:47,285 - INFO - --------------------------------------------------------------------------------
+2024-12-13 12:58:47,285 - INFO - Run 103/720 (14.2% complete)
+2024-12-13 12:58:47,285 - INFO - Current best test loss: inf
+2024-12-13 12:58:47,285 - INFO - 
+Current parameters:
+2024-12-13 12:58:47,285 - INFO - hidden_dim: 32
+2024-12-13 12:58:47,286 - INFO - num_layers: 8
+2024-12-13 12:58:47,286 - INFO - dropout: 0.2
+2024-12-13 12:58:47,286 - INFO - learning_rate: 1e-05
+2024-12-13 12:58:47,286 - INFO - batch_size: 32
+2024-12-13 12:58:47,286 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.2 --learning_rate 1e-05 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 13:09:56,088 - INFO - Run completed successfully in 0:11:08.801917
+2024-12-13 13:09:56,088 - INFO - --------------------------------------------------------------------------------
+2024-12-13 13:09:56,088 - INFO - Run 104/720 (14.3% complete)
+2024-12-13 13:09:56,088 - INFO - Current best test loss: inf
+2024-12-13 13:09:56,088 - INFO - 
+Current parameters:
+2024-12-13 13:09:56,089 - INFO - hidden_dim: 32
+2024-12-13 13:09:56,089 - INFO - num_layers: 8
+2024-12-13 13:09:56,089 - INFO - dropout: 0.2
+2024-12-13 13:09:56,089 - INFO - learning_rate: 1e-05
+2024-12-13 13:09:56,089 - INFO - batch_size: 64
+2024-12-13 13:09:56,089 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.2 --learning_rate 1e-05 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 13:16:19,249 - INFO - Run completed successfully in 0:06:23.160052
+2024-12-13 13:16:19,249 - INFO - --------------------------------------------------------------------------------
+2024-12-13 13:16:19,249 - INFO - Run 105/720 (14.4% complete)
+2024-12-13 13:16:19,250 - INFO - Current best test loss: inf
+2024-12-13 13:16:19,250 - INFO - 
+Current parameters:
+2024-12-13 13:16:19,250 - INFO - hidden_dim: 32
+2024-12-13 13:16:19,250 - INFO - num_layers: 8
+2024-12-13 13:16:19,250 - INFO - dropout: 0.2
+2024-12-13 13:16:19,250 - INFO - learning_rate: 1e-05
+2024-12-13 13:16:19,251 - INFO - batch_size: 128
+2024-12-13 13:16:19,251 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.2 --learning_rate 1e-05 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 13:20:34,733 - INFO - Run completed successfully in 0:04:15.481928
+2024-12-13 13:20:34,734 - INFO - --------------------------------------------------------------------------------
+2024-12-13 13:20:34,734 - INFO - Run 106/720 (14.6% complete)
+2024-12-13 13:20:34,734 - INFO - Current best test loss: inf
+2024-12-13 13:20:34,734 - INFO - 
+Current parameters:
+2024-12-13 13:20:34,734 - INFO - hidden_dim: 32
+2024-12-13 13:20:34,734 - INFO - num_layers: 8
+2024-12-13 13:20:34,734 - INFO - dropout: 0.2
+2024-12-13 13:20:34,735 - INFO - learning_rate: 5e-06
+2024-12-13 13:20:34,735 - INFO - batch_size: 32
+2024-12-13 13:20:34,735 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.2 --learning_rate 5e-06 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 13:31:32,976 - INFO - Run completed successfully in 0:10:58.240414
+2024-12-13 13:31:32,976 - INFO - --------------------------------------------------------------------------------
+2024-12-13 13:31:32,976 - INFO - Run 107/720 (14.7% complete)
+2024-12-13 13:31:32,977 - INFO - Current best test loss: inf
+2024-12-13 13:31:32,977 - INFO - 
+Current parameters:
+2024-12-13 13:31:32,977 - INFO - hidden_dim: 32
+2024-12-13 13:31:32,977 - INFO - num_layers: 8
+2024-12-13 13:31:32,977 - INFO - dropout: 0.2
+2024-12-13 13:31:32,978 - INFO - learning_rate: 5e-06
+2024-12-13 13:31:32,978 - INFO - batch_size: 64
+2024-12-13 13:31:32,978 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.2 --learning_rate 5e-06 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 13:38:07,899 - INFO - Run completed successfully in 0:06:34.921273
+2024-12-13 13:38:07,899 - INFO - --------------------------------------------------------------------------------
+2024-12-13 13:38:07,899 - INFO - Run 108/720 (14.9% complete)
+2024-12-13 13:38:07,900 - INFO - Current best test loss: inf
+2024-12-13 13:38:07,900 - INFO - 
+Current parameters:
+2024-12-13 13:38:07,900 - INFO - hidden_dim: 32
+2024-12-13 13:38:07,900 - INFO - num_layers: 8
+2024-12-13 13:38:07,900 - INFO - dropout: 0.2
+2024-12-13 13:38:07,901 - INFO - learning_rate: 5e-06
+2024-12-13 13:38:07,901 - INFO - batch_size: 128
+2024-12-13 13:38:07,901 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 8 --dropout 0.2 --learning_rate 5e-06 --batch_size 128 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 13:42:39,416 - INFO - Run completed successfully in 0:04:31.515325
+2024-12-13 13:42:39,416 - INFO - --------------------------------------------------------------------------------
+2024-12-13 13:42:39,417 - INFO - Run 109/720 (15.0% complete)
+2024-12-13 13:42:39,417 - INFO - Current best test loss: inf
+2024-12-13 13:42:39,417 - INFO - 
+Current parameters:
+2024-12-13 13:42:39,417 - INFO - hidden_dim: 32
+2024-12-13 13:42:39,417 - INFO - num_layers: 12
+2024-12-13 13:42:39,418 - INFO - dropout: 0.05
+2024-12-13 13:42:39,418 - INFO - learning_rate: 0.0001
+2024-12-13 13:42:39,418 - INFO - batch_size: 32
+2024-12-13 13:42:39,418 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 12 --dropout 0.05 --learning_rate 0.0001 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50
+2024-12-13 13:56:55,018 - INFO - Run completed successfully in 0:14:15.599236
+2024-12-13 13:56:55,018 - INFO - --------------------------------------------------------------------------------
+2024-12-13 13:56:55,018 - INFO - Run 110/720 (15.1% complete)
+2024-12-13 13:56:55,018 - INFO - Current best test loss: inf
+2024-12-13 13:56:55,018 - INFO - 
+Current parameters:
+2024-12-13 13:56:55,019 - INFO - hidden_dim: 32
+2024-12-13 13:56:55,019 - INFO - num_layers: 12
+2024-12-13 13:56:55,019 - INFO - dropout: 0.05
+2024-12-13 13:56:55,019 - INFO - learning_rate: 0.0001
+2024-12-13 13:56:55,019 - INFO - batch_size: 64
+2024-12-13 13:56:55,019 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 12 --dropout 0.05 --learning_rate 0.0001 --batch_size 64 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 50

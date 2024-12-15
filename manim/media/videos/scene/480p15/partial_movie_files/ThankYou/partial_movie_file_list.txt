@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/Education/University/Graduate/Purdue University/Year 2 Fall/PHYS 570AI - AI and Physics/Final Project/Code/pvid/manim/media/videos/scene/480p15/partial_movie_files/ThankYou/3030367865_3665420920_223132457.mp4'

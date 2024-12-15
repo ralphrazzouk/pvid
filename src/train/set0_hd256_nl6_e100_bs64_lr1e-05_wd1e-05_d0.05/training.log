@@ -1,0 +1,207 @@
+2024-12-14 18:04:34,762 - INFO - Logging setup complete. Saving logs to: train\set0_hd256_nl6_e100_bs64_lr1e-05_wd1e-05_d0.05\training.log
+2024-12-14 18:04:34,762 - INFO - Using device: cuda
+2024-12-14 18:04:42,514 - INFO - Number of files - Train: 34299, Val: 7351, Test: 7350
+2024-12-14 18:05:19,087 - INFO - Epoch 1/100: Train Loss: 185.0968, Val Loss: 0.1339, Val MAE: 8.5671, Accuracy: 0.6150
+2024-12-14 18:05:19,648 - INFO - Plots saved!
+2024-12-14 18:05:40,025 - INFO - Epoch 2/100: Train Loss: 34.4539, Val Loss: 0.1327, Val MAE: 8.4930, Accuracy: 0.9105
+2024-12-14 18:05:40,574 - INFO - Plots saved!
+2024-12-14 18:06:00,050 - INFO - Epoch 3/100: Train Loss: 22.2014, Val Loss: 0.1316, Val MAE: 8.4228, Accuracy: 0.8890
+2024-12-14 18:06:00,813 - INFO - Plots saved!
+2024-12-14 18:06:21,146 - INFO - Epoch 4/100: Train Loss: 17.6660, Val Loss: 0.1310, Val MAE: 8.3840, Accuracy: 0.9738
+2024-12-14 18:06:21,712 - INFO - Plots saved!
+2024-12-14 18:06:41,920 - INFO - Epoch 5/100: Train Loss: 15.3364, Val Loss: 0.1331, Val MAE: 8.5201, Accuracy: 0.8617
+2024-12-14 18:06:42,498 - INFO - Plots saved!
+2024-12-14 18:07:02,428 - INFO - Epoch 6/100: Train Loss: 13.9548, Val Loss: 0.1314, Val MAE: 8.4101, Accuracy: 0.9083
+2024-12-14 18:07:03,017 - INFO - Plots saved!
+2024-12-14 18:07:22,956 - INFO - Epoch 7/100: Train Loss: 12.9651, Val Loss: 0.1307, Val MAE: 8.3626, Accuracy: 0.9962
+2024-12-14 18:07:23,524 - INFO - Plots saved!
+2024-12-14 18:07:44,030 - INFO - Epoch 8/100: Train Loss: 12.2236, Val Loss: 0.1309, Val MAE: 8.3734, Accuracy: 0.9868
+2024-12-14 18:07:44,619 - INFO - Plots saved!
+2024-12-14 18:08:05,226 - INFO - Epoch 9/100: Train Loss: 11.5879, Val Loss: 0.1311, Val MAE: 8.3875, Accuracy: 0.9540
+2024-12-14 18:08:05,803 - INFO - Plots saved!
+2024-12-14 18:08:26,125 - INFO - Epoch 10/100: Train Loss: 11.1681, Val Loss: 0.1312, Val MAE: 8.3936, Accuracy: 0.9054
+2024-12-14 18:08:26,687 - INFO - Plots saved!
+2024-12-14 18:08:47,217 - INFO - Epoch 11/100: Train Loss: 10.7802, Val Loss: 0.1314, Val MAE: 8.4056, Accuracy: 0.9606
+2024-12-14 18:08:47,791 - INFO - Plots saved!
+2024-12-14 18:09:08,092 - INFO - Epoch 12/100: Train Loss: 10.2223, Val Loss: 0.1316, Val MAE: 8.4214, Accuracy: 0.9446
+2024-12-14 18:09:08,680 - INFO - Plots saved!
+2024-12-14 18:09:28,947 - INFO - Epoch 13/100: Train Loss: 9.7499, Val Loss: 0.1318, Val MAE: 8.4331, Accuracy: 0.9513
+2024-12-14 18:09:29,584 - INFO - Plots saved!
+2024-12-14 18:09:49,991 - INFO - Epoch 14/100: Train Loss: 9.4492, Val Loss: 0.1316, Val MAE: 8.4182, Accuracy: 0.9722
+2024-12-14 18:09:50,581 - INFO - Plots saved!
+2024-12-14 18:10:10,791 - INFO - Epoch 15/100: Train Loss: 9.4065, Val Loss: 0.1324, Val MAE: 8.4731, Accuracy: 0.8933
+2024-12-14 18:10:11,344 - INFO - Plots saved!
+2024-12-14 18:10:30,935 - INFO - Epoch 16/100: Train Loss: 9.1670, Val Loss: 0.1314, Val MAE: 8.4089, Accuracy: 0.9974
+2024-12-14 18:10:31,505 - INFO - Plots saved!
+2024-12-14 18:10:52,224 - INFO - Epoch 17/100: Train Loss: 8.9640, Val Loss: 0.1318, Val MAE: 8.4363, Accuracy: 0.9849
+2024-12-14 18:10:52,823 - INFO - Plots saved!
+2024-12-14 18:11:13,111 - INFO - Epoch 18/100: Train Loss: 8.9946, Val Loss: 0.1314, Val MAE: 8.4085, Accuracy: 0.9983
+2024-12-14 18:11:13,713 - INFO - Plots saved!
+2024-12-14 18:11:34,127 - INFO - Epoch 19/100: Train Loss: 8.8067, Val Loss: 0.1312, Val MAE: 8.3972, Accuracy: 0.9967
+2024-12-14 18:11:34,735 - INFO - Plots saved!
+2024-12-14 18:11:55,513 - INFO - Epoch 20/100: Train Loss: 8.6065, Val Loss: 0.1315, Val MAE: 8.4170, Accuracy: 0.9948
+2024-12-14 18:11:56,156 - INFO - Plots saved!
+2024-12-14 18:12:17,527 - INFO - Epoch 21/100: Train Loss: 8.5719, Val Loss: 0.1317, Val MAE: 8.4245, Accuracy: 0.9939
+2024-12-14 18:12:19,216 - INFO - Plots saved!
+2024-12-14 18:12:39,795 - INFO - Epoch 22/100: Train Loss: 8.5243, Val Loss: 0.1312, Val MAE: 8.3981, Accuracy: 0.9993
+2024-12-14 18:12:40,367 - INFO - Plots saved!
+2024-12-14 18:13:00,757 - INFO - Epoch 23/100: Train Loss: 8.3775, Val Loss: 0.1314, Val MAE: 8.4094, Accuracy: 0.9971
+2024-12-14 18:13:01,332 - INFO - Plots saved!
+2024-12-14 18:13:21,610 - INFO - Epoch 24/100: Train Loss: 8.4225, Val Loss: 0.1312, Val MAE: 8.3946, Accuracy: 0.9999
+2024-12-14 18:13:22,213 - INFO - Plots saved!
+2024-12-14 18:13:42,600 - INFO - Epoch 25/100: Train Loss: 8.3212, Val Loss: 0.1318, Val MAE: 8.4337, Accuracy: 0.9676
+2024-12-14 18:13:43,216 - INFO - Plots saved!
+2024-12-14 18:14:04,307 - INFO - Epoch 26/100: Train Loss: 8.2668, Val Loss: 0.1316, Val MAE: 8.4222, Accuracy: 0.9959
+2024-12-14 18:14:04,970 - INFO - Plots saved!
+2024-12-14 18:14:24,970 - INFO - Epoch 27/100: Train Loss: 8.1132, Val Loss: 0.1314, Val MAE: 8.4106, Accuracy: 0.9980
+2024-12-14 18:14:25,540 - INFO - Plots saved!
+2024-12-14 18:14:46,657 - INFO - Epoch 28/100: Train Loss: 8.1588, Val Loss: 0.1316, Val MAE: 8.4208, Accuracy: 0.9989
+2024-12-14 18:14:47,309 - INFO - Plots saved!
+2024-12-14 18:15:08,688 - INFO - Epoch 29/100: Train Loss: 8.2043, Val Loss: 0.1320, Val MAE: 8.4437, Accuracy: 0.9994
+2024-12-14 18:15:09,332 - INFO - Plots saved!
+2024-12-14 18:15:30,970 - INFO - Epoch 30/100: Train Loss: 8.1159, Val Loss: 0.1316, Val MAE: 8.4196, Accuracy: 0.9982
+2024-12-14 18:15:31,591 - INFO - Plots saved!
+2024-12-14 18:15:53,317 - INFO - Epoch 31/100: Train Loss: 8.0446, Val Loss: 0.1316, Val MAE: 8.4233, Accuracy: 0.9983
+2024-12-14 18:15:53,951 - INFO - Plots saved!
+2024-12-14 18:16:14,954 - INFO - Epoch 32/100: Train Loss: 8.0514, Val Loss: 0.1317, Val MAE: 8.4301, Accuracy: 0.9965
+2024-12-14 18:16:15,798 - INFO - Plots saved!
+2024-12-14 18:16:36,448 - INFO - Epoch 33/100: Train Loss: 8.0111, Val Loss: 0.1314, Val MAE: 8.4053, Accuracy: 0.9998
+2024-12-14 18:16:37,571 - INFO - Plots saved!
+2024-12-14 18:16:58,146 - INFO - Epoch 34/100: Train Loss: 7.9802, Val Loss: 0.1318, Val MAE: 8.4326, Accuracy: 0.9916
+2024-12-14 18:16:58,768 - INFO - Plots saved!
+2024-12-14 18:17:19,504 - INFO - Epoch 35/100: Train Loss: 8.0197, Val Loss: 0.1316, Val MAE: 8.4195, Accuracy: 0.9993
+2024-12-14 18:17:20,130 - INFO - Plots saved!
+2024-12-14 18:17:40,746 - INFO - Epoch 36/100: Train Loss: 7.9167, Val Loss: 0.1316, Val MAE: 8.4186, Accuracy: 0.9998
+2024-12-14 18:17:41,380 - INFO - Plots saved!
+2024-12-14 18:18:02,330 - INFO - Epoch 37/100: Train Loss: 7.9408, Val Loss: 0.1317, Val MAE: 8.4295, Accuracy: 0.9971
+2024-12-14 18:18:02,942 - INFO - Plots saved!
+2024-12-14 18:18:23,998 - INFO - Epoch 38/100: Train Loss: 7.9794, Val Loss: 0.1316, Val MAE: 8.4223, Accuracy: 0.9980
+2024-12-14 18:18:24,683 - INFO - Plots saved!
+2024-12-14 18:18:46,670 - INFO - Epoch 39/100: Train Loss: 7.9209, Val Loss: 0.1314, Val MAE: 8.4100, Accuracy: 0.9991
+2024-12-14 18:18:47,434 - INFO - Plots saved!
+2024-12-14 18:19:08,900 - INFO - Epoch 40/100: Train Loss: 7.8980, Val Loss: 0.1316, Val MAE: 8.4183, Accuracy: 0.9994
+2024-12-14 18:19:09,551 - INFO - Plots saved!
+2024-12-14 18:19:30,881 - INFO - Epoch 41/100: Train Loss: 7.9407, Val Loss: 0.1314, Val MAE: 8.4092, Accuracy: 0.9993
+2024-12-14 18:19:31,514 - INFO - Plots saved!
+2024-12-14 18:19:51,859 - INFO - Epoch 42/100: Train Loss: 7.9179, Val Loss: 0.1317, Val MAE: 8.4255, Accuracy: 0.9995
+2024-12-14 18:19:52,408 - INFO - Plots saved!
+2024-12-14 18:20:12,181 - INFO - Epoch 43/100: Train Loss: 7.9426, Val Loss: 0.1317, Val MAE: 8.4255, Accuracy: 0.9976
+2024-12-14 18:20:12,750 - INFO - Plots saved!
+2024-12-14 18:20:32,510 - INFO - Epoch 44/100: Train Loss: 7.9274, Val Loss: 0.1315, Val MAE: 8.4152, Accuracy: 0.9989
+2024-12-14 18:20:33,064 - INFO - Plots saved!
+2024-12-14 18:20:52,828 - INFO - Epoch 45/100: Train Loss: 7.8857, Val Loss: 0.1316, Val MAE: 8.4201, Accuracy: 0.9983
+2024-12-14 18:20:53,389 - INFO - Plots saved!
+2024-12-14 18:21:13,063 - INFO - Epoch 46/100: Train Loss: 7.8243, Val Loss: 0.1316, Val MAE: 8.4238, Accuracy: 0.9981
+2024-12-14 18:21:13,608 - INFO - Plots saved!
+2024-12-14 18:21:33,179 - INFO - Epoch 47/100: Train Loss: 7.9285, Val Loss: 0.1317, Val MAE: 8.4281, Accuracy: 0.9974
+2024-12-14 18:21:33,722 - INFO - Plots saved!
+2024-12-14 18:21:53,284 - INFO - Epoch 48/100: Train Loss: 7.8661, Val Loss: 0.1319, Val MAE: 8.4389, Accuracy: 0.9948
+2024-12-14 18:21:53,827 - INFO - Plots saved!
+2024-12-14 18:22:13,412 - INFO - Epoch 49/100: Train Loss: 7.9366, Val Loss: 0.1317, Val MAE: 8.4282, Accuracy: 0.9971
+2024-12-14 18:22:13,958 - INFO - Plots saved!
+2024-12-14 18:22:33,592 - INFO - Epoch 50/100: Train Loss: 7.9757, Val Loss: 0.1317, Val MAE: 8.4270, Accuracy: 0.9980
+2024-12-14 18:22:34,142 - INFO - Plots saved!
+2024-12-14 18:22:53,449 - INFO - Epoch 51/100: Train Loss: 7.8426, Val Loss: 0.1316, Val MAE: 8.4231, Accuracy: 0.9984
+2024-12-14 18:22:53,999 - INFO - Plots saved!
+2024-12-14 18:23:13,381 - INFO - Epoch 52/100: Train Loss: 7.8389, Val Loss: 0.1315, Val MAE: 8.4175, Accuracy: 0.9994
+2024-12-14 18:23:13,944 - INFO - Plots saved!
+2024-12-14 18:23:33,248 - INFO - Epoch 53/100: Train Loss: 7.9008, Val Loss: 0.1317, Val MAE: 8.4248, Accuracy: 0.9990
+2024-12-14 18:23:33,809 - INFO - Plots saved!
+2024-12-14 18:23:53,171 - INFO - Epoch 54/100: Train Loss: 7.8030, Val Loss: 0.1316, Val MAE: 8.4194, Accuracy: 0.9986
+2024-12-14 18:23:53,721 - INFO - Plots saved!
+2024-12-14 18:24:13,077 - INFO - Epoch 55/100: Train Loss: 7.8601, Val Loss: 0.1316, Val MAE: 8.4235, Accuracy: 0.9988
+2024-12-14 18:24:13,624 - INFO - Plots saved!
+2024-12-14 18:24:32,883 - INFO - Epoch 56/100: Train Loss: 7.8729, Val Loss: 0.1316, Val MAE: 8.4219, Accuracy: 0.9995
+2024-12-14 18:24:33,440 - INFO - Plots saved!
+2024-12-14 18:24:52,734 - INFO - Epoch 57/100: Train Loss: 7.8129, Val Loss: 0.1315, Val MAE: 8.4175, Accuracy: 0.9993
+2024-12-14 18:24:53,290 - INFO - Plots saved!
+2024-12-14 18:25:13,906 - INFO - Epoch 58/100: Train Loss: 7.8342, Val Loss: 0.1316, Val MAE: 8.4214, Accuracy: 0.9992
+2024-12-14 18:25:14,484 - INFO - Plots saved!
+2024-12-14 18:25:33,696 - INFO - Epoch 59/100: Train Loss: 7.8268, Val Loss: 0.1316, Val MAE: 8.4195, Accuracy: 0.9993
+2024-12-14 18:25:34,259 - INFO - Plots saved!
+2024-12-14 18:25:53,494 - INFO - Epoch 60/100: Train Loss: 7.7682, Val Loss: 0.1317, Val MAE: 8.4257, Accuracy: 0.9979
+2024-12-14 18:25:54,078 - INFO - Plots saved!
+2024-12-14 18:26:13,394 - INFO - Epoch 61/100: Train Loss: 7.8337, Val Loss: 0.1316, Val MAE: 8.4214, Accuracy: 0.9989
+2024-12-14 18:26:13,962 - INFO - Plots saved!
+2024-12-14 18:26:33,366 - INFO - Epoch 62/100: Train Loss: 7.8227, Val Loss: 0.1317, Val MAE: 8.4243, Accuracy: 0.9988
+2024-12-14 18:26:33,924 - INFO - Plots saved!
+2024-12-14 18:26:53,213 - INFO - Epoch 63/100: Train Loss: 7.8904, Val Loss: 0.1317, Val MAE: 8.4251, Accuracy: 0.9990
+2024-12-14 18:26:53,772 - INFO - Plots saved!
+2024-12-14 18:27:13,024 - INFO - Epoch 64/100: Train Loss: 7.8560, Val Loss: 0.1316, Val MAE: 8.4220, Accuracy: 0.9991
+2024-12-14 18:27:13,600 - INFO - Plots saved!
+2024-12-14 18:27:32,879 - INFO - Epoch 65/100: Train Loss: 7.8450, Val Loss: 0.1317, Val MAE: 8.4252, Accuracy: 0.9989
+2024-12-14 18:27:33,459 - INFO - Plots saved!
+2024-12-14 18:27:52,742 - INFO - Epoch 66/100: Train Loss: 7.8452, Val Loss: 0.1316, Val MAE: 8.4215, Accuracy: 0.9990
+2024-12-14 18:27:53,323 - INFO - Plots saved!
+2024-12-14 18:28:12,626 - INFO - Epoch 67/100: Train Loss: 7.8187, Val Loss: 0.1316, Val MAE: 8.4207, Accuracy: 0.9988
+2024-12-14 18:28:13,207 - INFO - Plots saved!
+2024-12-14 18:28:32,456 - INFO - Epoch 68/100: Train Loss: 7.8586, Val Loss: 0.1316, Val MAE: 8.4212, Accuracy: 0.9991
+2024-12-14 18:28:33,034 - INFO - Plots saved!
+2024-12-14 18:28:52,315 - INFO - Epoch 69/100: Train Loss: 7.7899, Val Loss: 0.1316, Val MAE: 8.4241, Accuracy: 0.9988
+2024-12-14 18:28:52,880 - INFO - Plots saved!
+2024-12-14 18:29:12,216 - INFO - Epoch 70/100: Train Loss: 7.8272, Val Loss: 0.1316, Val MAE: 8.4211, Accuracy: 0.9991
+2024-12-14 18:29:12,789 - INFO - Plots saved!
+2024-12-14 18:29:32,051 - INFO - Epoch 71/100: Train Loss: 7.8056, Val Loss: 0.1316, Val MAE: 8.4239, Accuracy: 0.9989
+2024-12-14 18:29:32,630 - INFO - Plots saved!
+2024-12-14 18:29:51,921 - INFO - Epoch 72/100: Train Loss: 7.8487, Val Loss: 0.1316, Val MAE: 8.4216, Accuracy: 0.9989
+2024-12-14 18:29:52,499 - INFO - Plots saved!
+2024-12-14 18:30:11,772 - INFO - Epoch 73/100: Train Loss: 7.8425, Val Loss: 0.1317, Val MAE: 8.4253, Accuracy: 0.9988
+2024-12-14 18:30:12,359 - INFO - Plots saved!
+2024-12-14 18:30:31,612 - INFO - Epoch 74/100: Train Loss: 7.8517, Val Loss: 0.1316, Val MAE: 8.4234, Accuracy: 0.9989
+2024-12-14 18:30:32,188 - INFO - Plots saved!
+2024-12-14 18:30:51,477 - INFO - Epoch 75/100: Train Loss: 7.8438, Val Loss: 0.1317, Val MAE: 8.4269, Accuracy: 0.9985
+2024-12-14 18:30:52,051 - INFO - Plots saved!
+2024-12-14 18:31:11,366 - INFO - Epoch 76/100: Train Loss: 7.8915, Val Loss: 0.1317, Val MAE: 8.4246, Accuracy: 0.9989
+2024-12-14 18:31:11,943 - INFO - Plots saved!
+2024-12-14 18:31:31,297 - INFO - Epoch 77/100: Train Loss: 7.8749, Val Loss: 0.1316, Val MAE: 8.4231, Accuracy: 0.9990
+2024-12-14 18:31:31,862 - INFO - Plots saved!
+2024-12-14 18:31:51,236 - INFO - Epoch 78/100: Train Loss: 7.8649, Val Loss: 0.1316, Val MAE: 8.4199, Accuracy: 0.9993
+2024-12-14 18:31:51,943 - INFO - Plots saved!
+2024-12-14 18:32:11,208 - INFO - Epoch 79/100: Train Loss: 7.8303, Val Loss: 0.1317, Val MAE: 8.4247, Accuracy: 0.9989
+2024-12-14 18:32:11,780 - INFO - Plots saved!
+2024-12-14 18:32:31,093 - INFO - Epoch 80/100: Train Loss: 7.8690, Val Loss: 0.1317, Val MAE: 8.4255, Accuracy: 0.9987
+2024-12-14 18:32:31,658 - INFO - Plots saved!
+2024-12-14 18:32:50,986 - INFO - Epoch 81/100: Train Loss: 7.7915, Val Loss: 0.1317, Val MAE: 8.4252, Accuracy: 0.9988
+2024-12-14 18:32:51,552 - INFO - Plots saved!
+2024-12-14 18:33:10,878 - INFO - Epoch 82/100: Train Loss: 7.7831, Val Loss: 0.1316, Val MAE: 8.4207, Accuracy: 0.9990
+2024-12-14 18:33:11,450 - INFO - Plots saved!
+2024-12-14 18:33:30,758 - INFO - Epoch 83/100: Train Loss: 7.8017, Val Loss: 0.1316, Val MAE: 8.4222, Accuracy: 0.9992
+2024-12-14 18:33:31,312 - INFO - Plots saved!
+2024-12-14 18:33:50,670 - INFO - Epoch 84/100: Train Loss: 7.8160, Val Loss: 0.1316, Val MAE: 8.4203, Accuracy: 0.9992
+2024-12-14 18:33:51,231 - INFO - Plots saved!
+2024-12-14 18:34:10,500 - INFO - Epoch 85/100: Train Loss: 7.9054, Val Loss: 0.1317, Val MAE: 8.4250, Accuracy: 0.9991
+2024-12-14 18:34:11,240 - INFO - Plots saved!
+2024-12-14 18:34:30,540 - INFO - Epoch 86/100: Train Loss: 7.9178, Val Loss: 0.1316, Val MAE: 8.4231, Accuracy: 0.9989
+2024-12-14 18:34:31,264 - INFO - Plots saved!
+2024-12-14 18:34:50,630 - INFO - Epoch 87/100: Train Loss: 7.8698, Val Loss: 0.1316, Val MAE: 8.4222, Accuracy: 0.9990
+2024-12-14 18:34:51,189 - INFO - Plots saved!
+2024-12-14 18:35:10,544 - INFO - Epoch 88/100: Train Loss: 7.8362, Val Loss: 0.1316, Val MAE: 8.4224, Accuracy: 0.9984
+2024-12-14 18:35:11,102 - INFO - Plots saved!
+2024-12-14 18:35:30,387 - INFO - Epoch 89/100: Train Loss: 7.8884, Val Loss: 0.1317, Val MAE: 8.4245, Accuracy: 0.9984
+2024-12-14 18:35:30,944 - INFO - Plots saved!
+2024-12-14 18:35:50,229 - INFO - Epoch 90/100: Train Loss: 7.8679, Val Loss: 0.1316, Val MAE: 8.4209, Accuracy: 0.9989
+2024-12-14 18:35:50,784 - INFO - Plots saved!
+2024-12-14 18:36:10,119 - INFO - Epoch 91/100: Train Loss: 7.8242, Val Loss: 0.1316, Val MAE: 8.4207, Accuracy: 0.9989
+2024-12-14 18:36:10,675 - INFO - Plots saved!
+2024-12-14 18:36:29,995 - INFO - Epoch 92/100: Train Loss: 7.8671, Val Loss: 0.1317, Val MAE: 8.4255, Accuracy: 0.9984
+2024-12-14 18:36:31,935 - INFO - Plots saved!
+2024-12-14 18:36:51,247 - INFO - Epoch 93/100: Train Loss: 7.9031, Val Loss: 0.1316, Val MAE: 8.4226, Accuracy: 0.9984
+2024-12-14 18:36:51,918 - INFO - Plots saved!
+2024-12-14 18:37:11,253 - INFO - Epoch 94/100: Train Loss: 7.8040, Val Loss: 0.1316, Val MAE: 8.4216, Accuracy: 0.9984
+2024-12-14 18:37:11,814 - INFO - Plots saved!
+2024-12-14 18:37:31,157 - INFO - Epoch 95/100: Train Loss: 7.7750, Val Loss: 0.1316, Val MAE: 8.4237, Accuracy: 0.9984
+2024-12-14 18:37:31,720 - INFO - Plots saved!
+2024-12-14 18:37:51,030 - INFO - Epoch 96/100: Train Loss: 7.8296, Val Loss: 0.1317, Val MAE: 8.4252, Accuracy: 0.9983
+2024-12-14 18:37:51,772 - INFO - Plots saved!
+2024-12-14 18:38:11,142 - INFO - Epoch 97/100: Train Loss: 7.7992, Val Loss: 0.1317, Val MAE: 8.4249, Accuracy: 0.9985
+2024-12-14 18:38:11,713 - INFO - Plots saved!
+2024-12-14 18:38:31,051 - INFO - Epoch 98/100: Train Loss: 7.8531, Val Loss: 0.1316, Val MAE: 8.4220, Accuracy: 0.9988
+2024-12-14 18:38:31,637 - INFO - Plots saved!
+2024-12-14 18:38:50,975 - INFO - Epoch 99/100: Train Loss: 7.8991, Val Loss: 0.1316, Val MAE: 8.4231, Accuracy: 0.9987
+2024-12-14 18:38:51,554 - INFO - Plots saved!
+2024-12-14 18:39:10,905 - INFO - Epoch 100/100: Train Loss: 7.8070, Val Loss: 0.1317, Val MAE: 8.4246, Accuracy: 0.9983
+2024-12-14 18:39:11,486 - INFO - Plots saved!
+2024-12-14 18:39:15,166 - INFO - Final Test Results:
+2024-12-14 18:39:15,166 - INFO - Test Loss: 0.1309
+2024-12-14 18:39:15,166 - INFO - Test MAE: 8.3779
+2024-12-14 18:39:15,167 - INFO - Test Accuracy: 0.9959

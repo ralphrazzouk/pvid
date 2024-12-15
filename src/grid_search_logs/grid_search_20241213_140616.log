@@ -1,0 +1,27 @@
+2024-12-13 14:06:16,627 - INFO - ================================================================================
+2024-12-13 14:06:16,628 - INFO - Starting grid search at 2024-12-13 14:06:16.627371
+2024-12-13 14:06:16,628 - INFO - Parameter grid:
+2024-12-13 14:06:16,628 - INFO - hidden_dim: [32, 64, 128, 256, 512]
+2024-12-13 14:06:16,628 - INFO - num_layers: [4, 6, 8]
+2024-12-13 14:06:16,628 - INFO - learning_rate: [0.0001, 5e-05, 1e-05, 5e-06]
+2024-12-13 14:06:16,628 - INFO - batch_size: [32, 64]
+2024-12-13 14:06:16,629 - INFO - 
+Fixed parameters:
+2024-12-13 14:06:16,629 - INFO - dataset: trackgen_v1
+2024-12-13 14:06:16,629 - INFO - data_dir: ../datasets/trackgen_v1
+2024-12-13 14:06:16,629 - INFO - epochs: 30
+2024-12-13 14:06:16,629 - INFO - dropout: 0.05
+2024-12-13 14:06:16,630 - INFO - 
+Total number of combinations: 120
+2024-12-13 14:06:16,630 - INFO - ================================================================================
+2024-12-13 14:06:16,630 - INFO - --------------------------------------------------------------------------------
+2024-12-13 14:06:16,630 - INFO - Run 1/120 (0.0% complete)
+2024-12-13 14:06:16,630 - INFO - Current best test loss: inf
+2024-12-13 14:06:16,630 - INFO - 
+Current parameters:
+2024-12-13 14:06:16,630 - INFO - hidden_dim: 32
+2024-12-13 14:06:16,630 - INFO - num_layers: 4
+2024-12-13 14:06:16,631 - INFO - learning_rate: 0.0001
+2024-12-13 14:06:16,631 - INFO - batch_size: 32
+2024-12-13 14:06:16,631 - INFO - 
+Command: python train.py --hidden_dim 32 --num_layers 4 --learning_rate 0.0001 --batch_size 32 --dataset trackgen_v1 --data_dir ../datasets/trackgen_v1 --epochs 30 --dropout 0.05

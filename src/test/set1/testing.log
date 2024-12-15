@@ -1,0 +1,9 @@
+2024-12-14 19:30:41,576 - INFO - Using device: cuda
+2024-12-14 19:30:41,740 - INFO - Loaded model: set1_hd256_nl6_e100_bs64_lr1e-05_wd1e-05_d0.05
+2024-12-14 19:30:41,740 - INFO - Loaded model configuration: {'hidden_dim': 256, 'num_layers': 6, 'epochs': 100, 'batch_size': 64, 'learning_rate': '1e-05', 'weight_decay': '1e-05', 'dropout': 0.05}
+2024-12-14 19:30:41,777 - INFO - Loaded model from epoch 4 with validation loss 0.1266
+2024-12-14 19:30:53,569 - INFO - Test Results:
+2024-12-14 19:30:53,569 - INFO - Test Loss: 0.127835
+2024-12-14 19:30:53,569 - INFO - Mean Absolute Error: 8.179061
+2024-12-14 19:30:53,570 - INFO - Root Mean Square Error: 0.004267
+2024-12-14 19:30:53,570 - INFO - Accuracy within 1%: 0.9725
